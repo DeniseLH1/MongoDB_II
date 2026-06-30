@@ -1,0 +1,72 @@
+
+db.students.find({hobbies:{$in:["Ciclismo", "Senderismo"]}}).count();
+
+db.students.find({hobbies:{$nin:["Lectura"]}}).count();
+
+db.students.find({"gender": { "$eq": "F" },"hobbies": { "$nin": ["Ciclismo", "Senderismo", "Trotar"] } }).count();
+
+db.students.find({"gender": { "$eq": "M" },"hobbies": { "$in": ["Música"] } }).count();
+
+db.students.find({hobbies:{$not:{$in:["Cine","Pintura"]}}}).count();
+
+//operador or(uno se cumple)
+db.students.find(
+    {$or:[{gender:"F"},
+    {hobbies:{$in:["Ciclismo"]}}
+    ]};
+).count();
+
+//mostrara a la smujeres uqe practiquem el ciclismo (ambas condiciones e cumple)
+
+db.students.find(
+    {$and:[{gender:"F"},
+    {hobbies:{$in:["Ciclismo"]}}
+    ]}
+).count();
+
+
+db.students.find(
+    {$and:[{grades:{subject:{$ne:["Matemáticas"]}},
+    {subject:{$ne:["Biología"]}}}
+    ]}
+).count();
+
+//mostrar documentos que no tengas en biologia ni matematicas 
+db.students.find({
+    $or: [
+        { "grades.subject": { $ne: "Matemáticas" } },
+        { "grades.subject": { $ne: "Biología" } }
+    ]
+}).count();
+
+db.students.find({hobbies:{$size:4}}).count();
+
+db.students.find({$and:[{gender:"M"},{"grades.subject": { $eq: "Biología" }},{hobbies:{$size:3}}]}).count();
+
+db.students.find({$and:[{gender:"F"},{"grades.subject": { $eq: "Biología" }},{hobbies:{$size:0}}]}).count();
+
+db.students.find({hobbies:{$not{$size:0}}}).count();
+
+db.students.find({
+    hobbies:{$all:["Ciclismo","Música"]}
+}).count();
+
+db.students.find({
+    hobbies:{$all:["Pintura","Música"]},"grades.subject": { $eq: "Arte" }}).count();
+
+
+db.students.find({
+     $or: [
+        { hobbies: { $eq: "Pintura" } },
+        { hobbies: { $eq: "Música" } }
+    ],"grades.subject": { $eq: "Arte" }
+}).count();
+
+
+db.students.find({
+    hobbies: { $in: ["Pintura", "Música"] },grades:{$elemMatch:{subject:"Arte"}}
+}).count();
+
+db.students.find({
+    hobbies:{$exists:false}
+}).count();
