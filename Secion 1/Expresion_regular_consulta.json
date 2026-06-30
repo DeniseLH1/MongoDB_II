@@ -1,0 +1,43 @@
+db.inventory.find({
+    "item.description":{$regex: /line/},
+});
+
+db.inventory.find({
+    "item.description":{$regex: /line/}},
+    {"item.line":1}
+);
+
+db.inventory.find({
+    "item.description":{$regex: /line/}},
+    {"item.description":1}
+);
+
+db.inventory.find({
+    "item.description":{$regex: /description/}},
+    {"item.description":1}
+);
+
+db.inventory.find({
+    "item.description":{$regex: /line/i}},
+    {"item.description":1}
+);
+
+db.inventory.find({
+    "item.description":{$regex: /line/im}},
+    {"item.description":1}
+);
+
+db.inventory.find({
+    "item.description":{$regex: ^/line/im}},
+    {"item.description":1}
+);
+
+db.inventory.find({
+    "item.description":{$regex: /^s/im}},
+    {"item.description":1}
+);
+
+db.inventory.find({
+    "item.description":{$regex: /n/}},
+    {"item.description":1}
+);
