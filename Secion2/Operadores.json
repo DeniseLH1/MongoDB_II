@@ -1,12 +1,14 @@
-
+// Operador in
 db.students.find({hobbies:{$in:["Ciclismo", "Senderismo"]}}).count();
 
 db.students.find({hobbies:{$nin:["Lectura"]}}).count();
 
-db.students.find({"gender": { "$eq": "F" },"hobbies": { "$nin": ["Ciclismo", "Senderismo", "Trotar"] } }).count();
-
 db.students.find({"gender": { "$eq": "M" },"hobbies": { "$in": ["Música"] } }).count();
 
+//Operador nin
+db.students.find({"gender": { "$eq": "F" },"hobbies": { "$nin": ["Ciclismo", "Senderismo", "Trotar"] } }).count();
+
+//operador not
 db.students.find({hobbies:{$not:{$in:["Cine","Pintura"]}}}).count();
 
 //operador or(uno se cumple)
@@ -69,4 +71,11 @@ db.students.find({
 
 db.students.find({
     hobbies:{$exists:false}
+}).count();
+
+
+db.students.find({
+    $and: [
+       { hobbies: { $ne: "Ciclismo" } },
+   ],"grades.subject": { $eq: "Física" }
 }).count();
