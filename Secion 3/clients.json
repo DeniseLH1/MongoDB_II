@@ -1,0 +1,10 @@
+[
+  { "dpi": 15024445, "name": "Pepe Pardo", "email": "pepe.pardo@mail.com", "phone": "(+57) 3513258745", "location": { "city": "Bogotá", "address": "Calle 45 # 12-34" } },
+  { "dpi": 23456789, "name": "Ana Gómez", "email": "ana.gomez@mail.com", "phone": "(+57) 3102345678", "location": { "city": "Medellín", "address": "Carrera 80 # 45aa-10" } },
+  { "dpi": 34567890, "name": "Carlos Rodríguez", "email": "carlos.rod@mail.com", "phone": "(+57) 3209876543", "location": { "city": "Cali", "address": "Avenida 6N # 22-15" } },
+  { "dpi": 45678901, "name": "Luisa Martínez", "email": "luisa.mtz@mail.com", "phone": "(+57) 3154567890", "location": { "city": "Barranquilla", "address": "Calle 72 # 53-22" } },
+  { "dpi": 56789012, "name": "Juan Fernando Hoyos", "email": "juan.hoyos@mail.com", "phone": "(+57) 3187654321", "location": { "city": "Pereira", "address": "Carrera 7 # 14-25" } },
+  { "dpi": 67890123, "name": "Sofía Benavides", "email": "sofia.b@mail.com", "phone": "(+57) 3001234567", "location": { "city": "Bucaramanga", "address": "Calle 36 # 28-40" } },
+  { "dpi": 78901234, "name": "Andrés Villa", "email": "andres.villa@mail.com", "phone": "(+57) 3113334455", "location": { "city": "Cartagena", "address": "Manga Callejón Beso" } },
+  { "dpi": 89012345, "name": "Diana Palacios", "email": "diana.p@mail.com", "phone": "(+57) 3145556677", "location": { "city": "Manizales", "address": "Avenida Santander # 55-02" } }
+]

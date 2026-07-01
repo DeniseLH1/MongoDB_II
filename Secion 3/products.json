@@ -1,0 +1,22 @@
+[
+  { "code": "P001", "name": "Mouse HP", "description": "Mouse óptico alámbrico USB", "price": 50, "provider": "HP Latam", "category": "Periféricos", "active": true },
+  { "code": "P002", "name": "Memoria RAM DDR5 16GB ADATA", "description": "Módulo de memoria de alta velocidad", "price": 1000, "provider": "ADATA Corp", "category": "Componentes", "active": true },
+  { "code": "P003", "name": "Teclado Mecánico Logitech G413", "description": "Teclado gamer con switches táctiles", "price": 350, "provider": "Logitech", "category": "Periféricos", "active": true },
+  { "code": "P004", "name": "Monitor ASUS 24 IPS", "description": "Monitor Full HD 75Hz para oficina", "price": 600, "provider": "ASUS", "category": "Monitores", "active": true },
+  { "code": "P005", "name": "Disco Duro Externo 2TB Toshiba", "description": "Almacenamiento portátil USB 3.0", "price": 280, "provider": "Toshiba", "category": "Almacenamiento", "active": true },
+  { "code": "P006", "name": "Audífonos HyperX Cloud II", "description": "Auriculares con sonido surround 7.1", "price": 400, "provider": "Kingston", "category": "Periféricos", "active": true },
+  { "code": "P007", "name": "Procesador AMD Ryzen 5 5600X", "description": "6 núcleos y 12 hilos, Socket AM4", "price": 1200, "provider": "AMD", "category": "Componentes", "active": true },
+  { "code": "P008", "name": "Tarjeta Madre MSI B550", "description": "Placa base ATX para AMD Ryzen", "price": 750, "provider": "MSI", "category": "Componentes", "active": false },
+  { "code": "P009", "name": "Fuente de Poder EVGA 600W", "description": "Certificación 80 Plus Bronze", "price": 220, "provider": "EVGA", "category": "Componentes", "active": true },
+  { "code": "P010", "name": "Gabinete Corsair 4000D", "description": "Chasis Mid-Tower con vidrio templado", "price": 450, "provider": "Corsair", "category": "Componentes", "active": true },
+  { "code": "P011", "name": "SSD M.2 NVMe Samsung 1TB", "description": "Unidad de estado sólido ultra rápida", "price": 550, "provider": "Samsung", "category": "Almacenamiento", "active": true },
+  { "code": "P012", "name": "Tarjeta de Video RTX 4060", "description": "8GB GDDR6, trazado de rayos", "price": 2500, "provider": "NVIDIA", "category": "Componentes", "active": true },
+  { "code": "P013", "name": "Disipador para CPU Cooler Master", "description": "Refrigeración por aire Hyper 212", "price": 150, "provider": "Cooler Master", "category": "Componentes", "active": true },
+  { "code": "P014", "name": "Pasta Térmica Arctic MX-4", "description": "Compuesto térmico de alto rendimiento", "price": 30, "provider": "Arctic", "category": "Componentes", "active": true },
+  { "code": "P015", "name": "Cable HDMI 2.1 2 Metros", "description": "Soporta resolución 8K a 60Hz", "price": 40, "provider": "Ugreen", "category": "Accesorios", "active": true },
+  { "code": "P016", "name": "Adaptador Wi-Fi USB TP-Link", "description": "Antena de alta ganancia Dual Band", "price": 80, "provider": "TP-Link", "category": "Redes", "active": true },
+  { "code": "P017", "name": "Hub USB-C 7 en 1 Anker", "description": "Extensión con HDMI, SD y USB 3.0", "price": 180, "provider": "Anker", "category": "Accesorios", "active": true },
+  { "code": "P018", "name": "Silla Gamer Vertagear", "description": "Ergonómica con soporte lumbar", "price": 1100, "provider": "Vertagear", "category": "Mobiliario", "active": true },
+  { "code": "P019", "name": "Pad Mouse Razer Gigantus", "description": "Superficie de tela optimizada", "price": 90, "provider": "Razer", "category": "Periféricos", "active": true },
+  { "code": "P020", "name": "Cámara Web Logitech C920", "description": "Pro HD 1080p para streaming", "price": 320, "provider": "Logitech", "category": "Periféricos", "active": false }
+]

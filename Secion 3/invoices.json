@@ -1,0 +1,477 @@
+[
+  {
+    "invoiceNumber": "FACT-0001",
+    "client": { "id": 15024445, "name": "Pepe Pardo", "email": "pepe.pardo@mail.com", "phone": "(+57) 3513258745" },
+    "items": [
+      { "code": "P001", "name": "Mouse HP", "price": 50, "cantidad": 2 },
+      { "code": "P002", "name": "Memoria RAM DDR5 16GB ADATA", "price": 1000, "cantidad": 1 },
+      { "code": "P003", "name": "Teclado Mecánico Logitech G413", "price": 350, "cantidad": 1 },
+      { "code": "P005", "name": "Disco Duro Externo 2TB Toshiba", "price": 280, "cantidad": 2 },
+      { "code": "P011", "name": "SSD M.2 NVMe Samsung 1TB", "price": 550, "cantidad": 1 }
+    ]
+  },
+  {
+    "invoiceNumber": "FACT-0002",
+    "client": { "id": 23456789, "name": "Ana Gómez", "email": "ana.gomez@mail.com", "phone": "(+57) 3102345678" },
+    "items": [
+      { "code": "P004", "name": "Monitor ASUS 24 IPS", "price": 600, "cantidad": 1 },
+      { "code": "P015", "name": "Cable HDMI 2.1 2 Metros", "price": 40, "cantidad": 4 }
+    ]
+  },
+  {
+    "invoiceNumber": "FACT-0003",
+    "client": { "id": 34567890, "name": "Carlos Rodríguez", "email": "carlos.rod@mail.com", "phone": "(+57) 3209876543" },
+    "items": [
+      { "code": "P005", "name": "Disco Duro Externo 2TB Toshiba", "price": 280, "cantidad": 1 },
+      { "code": "P006", "name": "Audífonos HyperX Cloud II", "price": 400, "cantidad": 1 },
+      { "code": "P009", "name": "Fuente de Poder EVGA 600W", "price": 220, "cantidad": 1 },
+      { "code": "P010", "name": "Gabinete Corsair 4000D", "price": 450, "cantidad": 1 },
+      { "code": "P013", "name": "Disipador para CPU Cooler Master", "price": 150, "cantidad": 2 },
+      { "code": "P014", "name": "Pasta Térmica Arctic MX-4", "price": 30, "cantidad": 1 },
+      { "code": "P017", "name": "Hub USB-C 7 en 1 Anker", "price": 180, "cantidad": 1 },
+      { "code": "P019", "name": "Pad Mouse Razer Gigantus", "price": 90, "cantidad": 2 }
+    ]
+  },
+  {
+    "invoiceNumber": "FACT-0004",
+    "client": { "id": 45678901, "name": "Luisa Martínez", "email": "luisa.mtz@mail.com", "phone": "(+57) 3154567890" },
+    "items": [
+      { "code": "P012", "name": "Tarjeta de Video RTX 4060", "price": 2500, "cantidad": 1 }
+    ]
+  },
+  {
+    "invoiceNumber": "FACT-0005",
+    "client": { "id": 56789012, "name": "Juan Fernando Hoyos", "email": "juan.hoyos@mail.com", "phone": "(+57) 3187654321" },
+    "items": [
+      { "code": "P015", "name": "Cable HDMI 2.1 2 Metros", "price": 40, "cantidad": 3 },
+      { "code": "P019", "name": "Pad Mouse Razer Gigantus", "price": 90, "cantidad": 1 },
+      { "code": "P001", "name": "Mouse HP", "price": 50, "cantidad": 2 },
+      { "code": "P003", "name": "Teclado Mecánico Logitech G413", "price": 350, "cantidad": 1 }
+    ]
+  },
+  {
+    "invoiceNumber": "FACT-0006",
+    "client": { "id": 67890123, "name": "Sofía Benavides", "email": "sofia.b@mail.com", "phone": "(+57) 3001234567" },
+    "items": [
+      { "code": "P003", "name": "Teclado Mecánico Logitech G413", "price": 350, "cantidad": 1 },
+      { "code": "P006", "name": "Audífonos HyperX Cloud II", "price": 400, "cantidad": 1 },
+      { "code": "P016", "name": "Adaptador Wi-Fi USB TP-Link", "price": 80, "cantidad": 1 }
+    ]
+  },
+  {
+    "invoiceNumber": "FACT-0007",
+    "client": { "id": 78901234, "name": "Andrés Villa", "email": "andres.villa@mail.com", "phone": "(+57) 3113334455" },
+    "items": [
+      { "code": "P007", "name": "Procesador AMD Ryzen 5 5600X", "price": 1200, "cantidad": 1 },
+      { "code": "P013", "name": "Disipador para CPU Cooler Master", "price": 150, "cantidad": 1 },
+      { "code": "P014", "name": "Pasta Térmica Arctic MX-4", "price": 30, "cantidad": 2 },
+      { "code": "P009", "name": "Fuente de Poder EVGA 600W", "price": 220, "cantidad": 1 },
+      { "code": "P010", "name": "Gabinete Corsair 4000D", "price": 450, "cantidad": 1 },
+      { "code": "P008", "name": "Tarjeta Madre MSI B550", "price": 750, "cantidad": 1 }
+    ]
+  },
+  {
+    "invoiceNumber": "FACT-0008",
+    "client": { "id": 89012345, "name": "Diana Palacios", "email": "diana.p@mail.com", "phone": "(+57) 3145556677" },
+    "items": [
+      { "code": "P018", "name": "Silla Gamer Vertagear", "price": 1100, "cantidad": 1 },
+      { "code": "P004", "name": "Monitor ASUS 24 IPS", "price": 600, "cantidad": 1 },
+      { "code": "P019", "name": "Pad Mouse Razer Gigantus", "price": 90, "cantidad": 1 }
+    ]
+  },
+  {
+    "invoiceNumber": "FACT-0009",
+    "client": { "id": 15024445, "name": "Pepe Pardo", "email": "pepe.pardo@mail.com", "phone": "(+57) 3513258745" },
+    "items": [
+      { "code": "P010", "name": "Gabinete Corsair 4000D", "price": 450, "cantidad": 1 },
+      { "code": "P014", "name": "Pasta Térmica Arctic MX-4", "price": 30, "cantidad": 3 },
+      { "code": "P009", "name": "Fuente de Poder EVGA 600W", "price": 220, "cantidad": 1 }
+    ]
+  },
+  {
+    "invoiceNumber": "FACT-0010",
+    "client": { "id": 23456789, "name": "Ana Gómez", "email": "ana.gomez@mail.com", "phone": "(+57) 3102345678" },
+    "items": [
+      { "code": "P016", "name": "Adaptador Wi-Fi USB TP-Link", "price": 80, "cantidad": 2 },
+      { "code": "P017", "name": "Hub USB-C 7 en 1 Anker", "price": 180, "cantidad": 1 },
+      { "code": "P001", "name": "Mouse HP", "price": 50, "cantidad": 2 },
+      { "code": "P015", "name": "Cable HDMI 2.1 2 Metros", "price": 40, "cantidad": 2 }
+    ]
+  },
+  {
+    "invoiceNumber": "FACT-0011",
+    "client": { "id": 34567890, "name": "Carlos Rodríguez", "email": "carlos.rod@mail.com", "phone": "(+57) 3209876543" },
+    "items": [
+      { "code": "P002", "name": "Memoria RAM DDR5 16GB ADATA", "price": 1000, "cantidad": 2 },
+      { "code": "P007", "name": "Procesador AMD Ryzen 5 5600X", "price": 1200, "cantidad": 1 },
+      { "code": "P008", "name": "Tarjeta Madre MSI B550", "price": 750, "cantidad": 1 },
+      { "code": "P011", "name": "SSD M.2 NVMe Samsung 1TB", "price": 550, "cantidad": 2 },
+      { "code": "P013", "name": "Disipador para CPU Cooler Master", "price": 150, "cantidad": 1 }
+    ]
+  },
+  {
+    "invoiceNumber": "FACT-0012",
+    "client": { "id": 45678901, "name": "Luisa Martínez", "email": "luisa.mtz@mail.com", "phone": "(+57) 3154567890" },
+    "items": [
+      { "code": "P020", "name": "Cámara Web Logitech C920", "price": 320, "cantidad": 1 },
+      { "code": "P001", "name": "Mouse HP", "price": 50, "cantidad": 1 },
+      { "code": "P003", "name": "Teclado Mecánico Logitech G413", "price": 350, "cantidad": 1 },
+      { "code": "P019", "name": "Pad Mouse Razer Gigantus", "price": 90, "cantidad": 1 }
+    ]
+  },
+  {
+    "invoiceNumber": "FACT-0013",
+    "client": { "id": 56789012, "name": "Juan Fernando Hoyos", "email": "juan.hoyos@mail.com", "phone": "(+57) 3187654321" },
+    "items": [
+      { "code": "P008", "name": "Tarjeta Madre MSI B550", "price": 750, "cantidad": 1 },
+      { "code": "P009", "name": "Fuente de Poder EVGA 600W", "price": 220, "cantidad": 1 },
+      { "code": "P007", "name": "Procesador AMD Ryzen 5 5600X", "price": 1200, "cantidad": 1 }
+    ]
+  },
+  {
+    "invoiceNumber": "FACT-0014",
+    "client": { "id": 67890123, "name": "Sofía Benavides", "email": "sofia.b@mail.com", "phone": "(+57) 3001234567" },
+    "items": [
+      { "code": "P005", "name": "Disco Duro Externo 2TB Toshiba", "price": 280, "cantidad": 1 },
+      { "code": "P011", "name": "SSD M.2 NVMe Samsung 1TB", "price": 550, "cantidad": 1 },
+      { "code": "P015", "name": "Cable HDMI 2.1 2 Metros", "price": 40, "cantidad": 3 },
+      { "code": "P016", "name": "Adaptador Wi-Fi USB TP-Link", "price": 80, "cantidad": 1 }
+    ]
+  },
+  {
+    "invoiceNumber": "FACT-0015",
+    "client": { "id": 78901234, "name": "Andrés Villa", "email": "andres.villa@mail.com", "phone": "(+57) 3113334455" },
+    "items": [
+      { "code": "P006", "name": "Audífonos HyperX Cloud II", "price": 400, "cantidad": 2 },
+      { "code": "P019", "name": "Pad Mouse Razer Gigantus", "price": 90, "cantidad": 1 }
+    ]
+  },
+  {
+    "invoiceNumber": "FACT-0016",
+    "client": { "id": 89012345, "name": "Diana Palacios", "email": "diana.p@mail.com", "phone": "(+57) 3145556677" },
+    "items": [
+      { "code": "P003", "name": "Teclado Mecánico Logitech G413", "price": 350, "cantidad": 1 },
+      { "code": "P015", "name": "Cable HDMI 2.1 2 Metros", "price": 40, "cantidad": 2 },
+      { "code": "P001", "name": "Mouse HP", "price": 50, "cantidad": 1 },
+      { "code": "P006", "name": "Audífonos HyperX Cloud II", "price": 400, "cantidad": 1 },
+      { "code": "P017", "name": "Hub USB-C 7 en 1 Anker", "price": 180, "cantidad": 1 }
+    ]
+  },
+  {
+    "invoiceNumber": "FACT-0017",
+    "client": { "id": 15024445, "name": "Pepe Pardo", "email": "pepe.pardo@mail.com", "phone": "(+57) 3513258745" },
+    "items": [
+      { "code": "P012", "name": "Tarjeta de Video RTX 4060", "price": 2500, "cantidad": 1 },
+      { "code": "P007", "name": "Procesador AMD Ryzen 5 5600X", "price": 1200, "cantidad": 1 },
+      { "code": "P008", "name": "Tarjeta Madre MSI B550", "price": 750, "cantidad": 1 },
+      { "code": "P009", "name": "Fuente de Poder EVGA 600W", "price": 220, "cantidad": 1 },
+      { "code": "P010", "name": "Gabinete Corsair 4000D", "price": 450, "cantidad": 1 },
+      { "code": "P011", "name": "SSD M.2 NVMe Samsung 1TB", "price": 550, "cantidad": 1 },
+      { "code": "P013", "name": "Disipador para CPU Cooler Master", "price": 150, "cantidad": 1 },
+      { "code": "P014", "name": "Pasta Térmica Arctic MX-4", "price": 30, "cantidad": 1 },
+      { "code": "P002", "name": "Memoria RAM DDR5 16GB ADATA", "price": 1000, "cantidad": 2 },
+      { "code": "P003", "name": "Teclado Mecánico Logitech G413", "price": 350, "cantidad": 1 }
+    ]
+  },
+  {
+    "invoiceNumber": "FACT-0018",
+    "client": { "id": 23456789, "name": "Ana Gómez", "email": "ana.gomez@mail.com", "phone": "(+57) 3102345678" },
+    "items": [
+      { "code": "P009", "name": "Fuente de Poder EVGA 600W", "price": 220, "cantidad": 1 },
+      { "code": "P010", "name": "Gabinete Corsair 4000D", "price": 450, "cantidad": 1 }
+    ]
+  },
+  {
+    "invoiceNumber": "FACT-0019",
+    "client": { "id": 34567890, "name": "Carlos Rodríguez", "email": "carlos.rod@mail.com", "phone": "(+57) 3209876543" },
+    "items": [
+      { "code": "P013", "name": "Disipador para CPU Cooler Master", "price": 150, "cantidad": 1 },
+      { "code": "P014", "name": "Pasta Térmica Arctic MX-4", "price": 30, "cantidad": 2 },
+      { "code": "P001", "name": "Mouse HP", "price": 50, "cantidad": 1 }
+    ]
+  },
+  {
+    "invoiceNumber": "FACT-0020",
+    "client": { "id": 45678901, "name": "Luisa Martínez", "email": "luisa.mtz@mail.com", "phone": "(+57) 3154567890" },
+    "items": [
+      { "code": "P007", "name": "Procesador AMD Ryzen 5 5600X", "price": 1200, "cantidad": 1 },
+      { "code": "P003", "name": "Teclado Mecánico Logitech G413", "price": 350, "cantidad": 1 },
+      { "code": "P006", "name": "Audífonos HyperX Cloud II", "price": 400, "cantidad": 1 },
+      { "code": "P019", "name": "Pad Mouse Razer Gigantus", "price": 90, "cantidad": 1 }
+    ]
+  },
+  {
+    "invoiceNumber": "FACT-0021",
+    "client": { "id": 56789012, "name": "Juan Fernando Hoyos", "email": "juan.hoyos@mail.com", "phone": "(+57) 3187654321" },
+    "items": [
+      { "code": "P004", "name": "Monitor ASUS 24 IPS", "price": 600, "cantidad": 1 },
+      { "code": "P015", "name": "Cable HDMI 2.1 2 Metros", "price": 40, "cantidad": 2 },
+      { "code": "P017", "name": "Hub USB-C 7 en 1 Anker", "price": 180, "cantidad": 1 }
+    ]
+  },
+  {
+    "invoiceNumber": "FACT-0022",
+    "client": { "id": 67890123, "name": "Sofía Benavides", "email": "sofia.b@mail.com", "phone": "(+57) 3001234567" },
+    "items": [
+      { "code": "P017", "name": "Hub USB-C 7 en 1 Anker", "price": 180, "cantidad": 1 },
+      { "code": "P001", "name": "Mouse HP", "price": 50, "cantidad": 1 },
+      { "code": "P015", "name": "Cable HDMI 2.1 2 Metros", "price": 40, "cantidad": 1 }
+    ]
+  },
+  {
+    "invoiceNumber": "FACT-0023",
+    "client": { "id": 78901234, "name": "Andrés Villa", "email": "andres.villa@mail.com", "phone": "(+57) 3113334455" },
+    "items": [
+      { "code": "P016", "name": "Adaptador Wi-Fi USB TP-Link", "price": 80, "cantidad": 2 }
+    ]
+  },
+  {
+    "invoiceNumber": "FACT-0024",
+    "client": { "id": 89012345, "name": "Diana Palacios", "email": "diana.p@mail.com", "phone": "(+57) 3145556677" },
+    "items": [
+      { "code": "P019", "name": "Pad Mouse Razer Gigantus", "price": 90, "cantidad": 1 },
+      { "code": "P006", "name": "Audífonos HyperX Cloud II", "price": 400, "cantidad": 1 },
+      { "code": "P003", "name": "Teclado Mecánico Logitech G413", "price": 350, "cantidad": 1 },
+      { "code": "P001", "name": "Mouse HP", "price": 50, "cantidad": 1 }
+    ]
+  },
+  {
+    "invoiceNumber": "FACT-0025",
+    "client": { "id": 15024445, "name": "Pepe Pardo", "email": "pepe.pardo@mail.com", "phone": "(+57) 3513258745" },
+    "items": [
+      { "code": "P002", "name": "Memoria RAM DDR5 16GB ADATA", "price": 1000, "cantidad": 2 },
+      { "code": "P008", "name": "Tarjeta Madre MSI B550", "price": 750, "cantidad": 1 },
+      { "code": "P009", "name": "Fuente de Poder EVGA 600W", "price": 220, "cantidad": 1 },
+      { "code": "P010", "name": "Gabinete Corsair 4000D", "price": 450, "cantidad": 1 }
+    ]
+  },
+  {
+    "invoiceNumber": "FACT-0026",
+    "client": { "id": 23456789, "name": "Ana Gómez", "email": "ana.gomez@mail.com", "phone": "(+57) 3102345678" },
+    "items": [
+      { "code": "P018", "name": "Silla Gamer Vertagear", "price": 1100, "cantidad": 1 },
+      { "code": "P010", "name": "Gabinete Corsair 4000D", "price": 450, "cantidad": 1 },
+      { "code": "P004", "name": "Monitor ASUS 24 IPS", "price": 600, "cantidad": 1 }
+    ]
+  },
+  {
+    "invoiceNumber": "FACT-0027",
+    "client": { "id": 34567890, "name": "Carlos Rodríguez", "email": "carlos.rod@mail.com", "phone": "(+57) 3209876543" },
+    "items": [
+      { "code": "P011", "name": "SSD M.2 NVMe Samsung 1TB", "price": 550, "cantidad": 1 },
+      { "code": "P005", "name": "Disco Duro Externo 2TB Toshiba", "price": 280, "cantidad": 1 },
+      { "code": "P015", "name": "Cable HDMI 2.1 2 Metros", "price": 40, "cantidad": 2 }
+    ]
+  },
+  {
+    "invoiceNumber": "FACT-0028",
+    "client": { "id": 45678901, "name": "Luisa Martínez", "email": "luisa.mtz@mail.com", "phone": "(+57) 3154567890" },
+    "items": [
+      { "code": "P020", "name": "Cámara Web Logitech C920", "price": 320, "cantidad": 1 },
+      { "code": "P016", "name": "Adaptador Wi-Fi USB TP-Link", "price": 80, "cantidad": 1 }
+    ]
+  },
+  {
+    "invoiceNumber": "FACT-0029",
+    "client": { "id": 56789012, "name": "Juan Fernando Hoyos", "email": "juan.hoyos@mail.com", "phone": "(+57) 3187654321" },
+    "items": [
+      { "code": "P001", "name": "Mouse HP", "price": 50, "cantidad": 4 },
+      { "code": "P019", "name": "Pad Mouse Razer Gigantus", "price": 90, "cantidad": 2 }
+    ]
+  },
+  {
+    "invoiceNumber": "FACT-0030",
+    "client": { "id": 67890123, "name": "Sofía Benavides", "email": "sofia.b@mail.com", "phone": "(+57) 3001234567" },
+    "items": [
+      { "code": "P005", "name": "Disco Duro Externo 2TB Toshiba", "price": 280, "cantidad": 1 },
+      { "code": "P009", "name": "Fuente de Poder EVGA 600W", "price": 220, "cantidad": 1 },
+      { "code": "P010", "name": "Gabinete Corsair 4000D", "price": 450, "cantidad": 1 },
+      { "code": "P011", "name": "SSD M.2 NVMe Samsung 1TB", "price": 550, "cantidad": 1 },
+      { "code": "P013", "name": "Disipador para CPU Cooler Master", "price": 150, "cantidad": 1 }
+    ]
+  },
+  {
+    "invoiceNumber": "FACT-0031",
+    "client": { "id": 78901234, "name": "Andrés Villa", "email": "andres.villa@mail.com", "phone": "(+57) 3113334455" },
+    "items": [
+      { "code": "P003", "name": "Teclado Mecánico Logitech G413", "price": 350, "cantidad": 1 },
+      { "code": "P006", "name": "Audífonos HyperX Cloud II", "price": 400, "cantidad": 1 },
+      { "code": "P019", "name": "Pad Mouse Razer Gigantus", "price": 90, "cantidad": 1 }
+    ]
+  },
+  {
+    "invoiceNumber": "FACT-0032",
+    "client": { "id": 89012345, "name": "Diana Palacios", "email": "diana.p@mail.com", "phone": "(+57) 3145556677" },
+    "items": [
+      { "code": "P012", "name": "Tarjeta de Video RTX 4060", "price": 2500, "cantidad": 1 },
+      { "code": "P007", "name": "Procesador AMD Ryzen 5 5600X", "price": 1200, "cantidad": 1 },
+      { "code": "P008", "name": "Tarjeta Madre MSI B550", "price": 750, "cantidad": 1 }
+    ]
+  },
+  {
+    "invoiceNumber": "FACT-0033",
+    "client": { "id": 15024445, "name": "Pepe Pardo", "email": "pepe.pardo@mail.com", "phone": "(+57) 3513258745" },
+    "items": [
+      { "code": "P015", "name": "Cable HDMI 2.1 2 Metros", "price": 40, "cantidad": 5 }
+    ]
+  },
+  {
+    "invoiceNumber": "FACT-0034",
+    "client": { "id": 23456789, "name": "Ana Gómez", "email": "ana.gomez@mail.com", "phone": "(+57) 3102345678" },
+    "items": [
+      { "code": "P006", "name": "Audífonos HyperX Cloud II", "price": 400, "cantidad": 1 },
+      { "code": "P019", "name": "Pad Mouse Razer Gigantus", "price": 90, "cantidad": 1 },
+      { "code": "P001", "name": "Mouse HP", "price": 50, "cantidad": 1 }
+    ]
+  },
+  {
+    "invoiceNumber": "FACT-0035",
+    "client": { "id": 34567890, "name": "Carlos Rodríguez", "email": "carlos.rod@mail.com", "phone": "(+57) 3209876543" },
+    "items": [
+      { "code": "P004", "name": "Monitor ASUS 24 IPS", "price": 600, "cantidad": 1 },
+      { "code": "P013", "name": "Disipador para CPU Cooler Master", "price": 150, "cantidad": 1 },
+      { "code": "P014", "name": "Pasta Térmica Arctic MX-4", "price": 30, "cantidad": 1 },
+      { "code": "P011", "name": "SSD M.2 NVMe Samsung 1TB", "price": 550, "cantidad": 1 }
+    ]
+  },
+  {
+    "invoiceNumber": "FACT-0036",
+    "client": { "id": 45678901, "name": "Luisa Martínez", "email": "luisa.mtz@mail.com", "phone": "(+57) 3154567890" },
+    "items": [
+      { "code": "P016", "name": "Adaptador Wi-Fi USB TP-Link", "price": 80, "cantidad": 1 },
+      { "code": "P017", "name": "Hub USB-C 7 en 1 Anker", "price": 180, "cantidad": 1 }
+    ]
+  },
+  {
+    "invoiceNumber": "FACT-0037",
+    "client": { "id": 56789012, "name": "Juan Fernando Hoyos", "email": "juan.hoyos@mail.com", "phone": "(+57) 3187654321" },
+    "items": [
+      { "code": "P011", "name": "SSD M.2 NVMe Samsung 1TB", "price": 550, "cantidad": 1 },
+      { "code": "P002", "name": "Memoria RAM DDR5 16GB ADATA", "price": 1000, "cantidad": 2 },
+      { "code": "P008", "name": "Tarjeta Madre MSI B550", "price": 750, "cantidad": 1 },
+      { "code": "P009", "name": "Fuente de Poder EVGA 600W", "price": 220, "cantidad": 1 }
+    ]
+  },
+  {
+    "invoiceNumber": "FACT-0038",
+    "client": { "id": 67890123, "name": "Sofía Benavides", "email": "sofia.b@mail.com", "phone": "(+57) 3001234567" },
+    "items": [
+      { "code": "P017", "name": "Hub USB-C 7 en 1 Anker", "price": 180, "cantidad": 2 },
+      { "code": "P015", "name": "Cable HDMI 2.1 2 Metros", "price": 40, "cantidad": 2 }
+    ]
+  },
+  {
+    "invoiceNumber": "FACT-0039",
+    "client": { "id": 78901234, "name": "Andrés Villa", "email": "andres.villa@mail.com", "phone": "(+57) 3113334455" },
+    "items": [
+      { "code": "P008", "name": "Tarjeta Madre MSI B550", "price": 750, "cantidad": 1 },
+      { "code": "P009", "name": "Fuente de Poder EVGA 600W", "price": 220, "cantidad": 1 },
+      { "code": "P010", "name": "Gabinete Corsair 4000D", "price": 450, "cantidad": 1 }
+    ]
+  },
+  {
+    "invoiceNumber": "FACT-0040",
+    "client": { "id": 89012345, "name": "Diana Palacios", "email": "diana.p@mail.com", "phone": "(+57) 3145556677" },
+    "items": [
+      { "code": "P001", "name": "Mouse HP", "price": 50, "cantidad": 2 },
+      { "code": "P003", "name": "Teclado Mecánico Logitech G413", "price": 350, "cantidad": 1 },
+      { "code": "P019", "name": "Pad Mouse Razer Gigantus", "price": 90, "cantidad": 1 }
+    ]
+  },
+  {
+    "invoiceNumber": "FACT-0041",
+    "client": { "id": 15024445, "name": "Pepe Pardo", "email": "pepe.pardo@mail.com", "phone": "(+57) 3513258745" },
+    "items": [
+      { "code": "P005", "name": "Disco Duro Externo 2TB Toshiba", "price": 280, "cantidad": 1 },
+      { "code": "P011", "name": "SSD M.2 NVMe Samsung 1TB", "price": 550, "cantidad": 1 },
+      { "code": "P015", "name": "Cable HDMI 2.1 2 Metros", "price": 40, "cantidad": 2 }
+    ]
+  },
+  {
+    "invoiceNumber": "FACT-0042",
+    "client": { "id": 23456789, "name": "Ana Gómez", "email": "ana.gomez@mail.com", "phone": "(+57) 3102345678" },
+    "items": [
+      { "code": "P014", "name": "Pasta Térmica Arctic MX-4", "price": 30, "cantidad": 1 },
+      { "code": "P013", "name": "Disipador para CPU Cooler Master", "price": 150, "cantidad": 1 },
+      { "code": "P007", "name": "Procesador AMD Ryzen 5 5600X", "price": 1200, "cantidad": 1 }
+    ]
+  },
+  {
+    "invoiceNumber": "FACT-0043",
+    "client": { "id": 34567890, "name": "Carlos Rodríguez", "email": "carlos.rod@mail.com", "phone": "(+57) 3209876543" },
+    "items": [
+      { "code": "P012", "name": "Tarjeta de Video RTX 4060", "price": 2500, "cantidad": 1 },
+      { "code": "P009", "name": "Fuente de Poder EVGA 600W", "price": 220, "cantidad": 1 },
+      { "code": "P010", "name": "Gabinete Corsair 4000D", "price": 450, "cantidad": 1 },
+      { "code": "P002", "name": "Memoria RAM DDR5 16GB ADATA", "price": 1000, "cantidad": 2 }
+    ]
+  },
+  {
+    "invoiceNumber": "FACT-0044",
+    "client": { "id": 45678901, "name": "Luisa Martínez", "email": "luisa.mtz@mail.com", "phone": "(+57) 3154567890" },
+    "items": [
+      { "code": "P018", "name": "Silla Gamer Vertagear", "price": 1100, "cantidad": 1 },
+      { "code": "P004", "name": "Monitor ASUS 24 IPS", "price": 600, "cantidad": 1 }
+    ]
+  },
+  {
+    "invoiceNumber": "FACT-0045",
+    "client": { "id": 56789012, "name": "Juan Fernando Hoyos", "email": "juan.hoyos@mail.com", "phone": "(+57) 3187654321" },
+    "items": [
+      { "code": "P004", "name": "Monitor ASUS 24 IPS", "price": 600, "cantidad": 1 },
+      { "code": "P001", "name": "Mouse HP", "price": 50, "cantidad": 1 },
+      { "code": "P003", "name": "Teclado Mecánico Logitech G413", "price": 350, "cantidad": 1 }
+    ]
+  },
+  {
+    "invoiceNumber": "FACT-0046",
+    "client": { "id": 67890123, "name": "Sofía Benavides", "email": "sofia.b@mail.com", "phone": "(+57) 3001234567" },
+    "items": [
+      { "code": "P006", "name": "Audífonos HyperX Cloud II", "price": 400, "cantidad": 1 },
+      { "code": "P011", "name": "SSD M.2 NVMe Samsung 1TB", "price": 550, "cantidad": 1 },
+      { "code": "P015", "name": "Cable HDMI 2.1 2 Metros", "price": 40, "cantidad": 1 },
+      { "code": "P001", "name": "Mouse HP", "price": 50, "cantidad": 1 }
+    ]
+  },
+  {
+    "invoiceNumber": "FACT-0047",
+    "client": { "id": 78901234, "name": "Andrés Villa", "email": "andres.villa@mail.com", "phone": "(+57) 3113334455" },
+    "items": [
+      { "code": "P010", "name": "Gabinete Corsair 4000D", "price": 450, "cantidad": 1 },
+      { "code": "P009", "name": "Fuente de Poder EVGA 600W", "price": 220, "cantidad": 1 },
+      { "code": "P013", "name": "Disipador para CPU Cooler Master", "price": 150, "cantidad": 1 },
+      { "code": "P014", "name": "Pasta Térmica Arctic MX-4", "price": 30, "cantidad": 1 }
+    ]
+  },
+  {
+    "invoiceNumber": "FACT-0048",
+    "client": { "id": 89012345, "name": "Diana Palacios", "email": "diana.p@mail.com", "phone": "(+57) 3145556677" },
+    "items": [
+      { "code": "P002", "name": "Memoria RAM DDR5 16GB ADATA", "price": 1000, "cantidad": 2 },
+      { "code": "P007", "name": "Procesador AMD Ryzen 5 5600X", "price": 1200, "cantidad": 1 },
+      { "code": "P008", "name": "Tarjeta Madre MSI B550", "price": 750, "cantidad": 1 },
+      { "code": "P011", "name": "SSD M.2 NVMe Samsung 1TB", "price": 550, "cantidad": 1 }
+    ]
+  },
+  {
+    "invoiceNumber": "FACT-0049",
+    "client": { "id": 15024445, "name": "Pepe Pardo", "email": "pepe.pardo@mail.com", "phone": "(+57) 3513258745" },
+    "items": [
+      { "code": "P020", "name": "Cámara Web Logitech C920", "price": 320, "cantidad": 1 },
+      { "code": "P015", "name": "Cable HDMI 2.1 2 Metros", "price": 40, "cantidad": 2 },
+      { "code": "P016", "name": "Adaptador Wi-Fi USB TP-Link", "price": 80, "cantidad": 1 },
+      { "code": "P017", "name": "Hub USB-C 7 en 1 Anker", "price": 180, "cantidad": 1 }
+    ]
+  },
+  {
+    "invoiceNumber": "FACT-0050",
+    "client": { "id": 23456789, "name": "Ana Gómez", "email": "ana.gomez@mail.com", "phone": "(+57) 3102345678" },
+    "items": [
+      { "code": "P007", "name": "Procesador AMD Ryzen 5 5600X", "price": 1200, "cantidad": 1 },
+      { "code": "P012", "name": "Tarjeta de Video RTX 4060", "price": 2500, "cantidad": 1 },
+      { "code": "P002", "name": "Memoria RAM DDR5 16GB ADATA", "price": 1000, "cantidad": 1 },
+      { "code": "P008", "name": "Tarjeta Madre MSI B550", "price": 750, "cantidad": 1 },
+      { "code": "P009", "name": "Fuente de Poder EVGA 600W", "price": 220, "cantidad": 1 }
+    ]
+  }
+]
