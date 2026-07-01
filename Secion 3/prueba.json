@@ -98,3 +98,68 @@ db.clients.aggregate([
         totalFacturas:1
     }}
   ]);
+
+        //ejercicio simplificado para mostrar factura de clientes que tengan menos de 3 items
+        db.invoices.aggregate([{
+          $project: { client: "$client.name", numFacts: { $size: "$items" }}
+        },
+        { $match: { numFacts: { $lt: 3 }}},
+        { $group: { _id: "$client", totalFacturas: { $sum: 1 }}},
+        { $project: { _id: 0, client: "$_id", totalFacturas: 1}}
+        ]);
+ 
+
+//mostrar los clientes con mas de 5 facturas
+db.invoices.aggregate([{
+    $project:{
+        client:"$client.name",
+        numFacts:{$size:"$items"}
+    }
+  }])
+
+//uso de sort 
+db.invoices.aggregate([{
+    $project: { client: "$client.name", numFacts: { $size: "$items" }}
+  },
+  { $match: { numFacts: { $lt: 3 }}},
+  { $group: { _id: "$client", totalFacturas: { $sum: 1 }}},
+  { $project: { _id: 0, client: "$_id", totalFacturas: 1}},
+  { $sort: {client:1,totalFacturas:-1}}
+  ]);
+
+//uso de limit
+db.invoices.aggregate([
+    {$skip:5},
+    {$limit:3}
+]);
+//-1 es para que sea acendente
+db.products.aggregate([
+    {$match:{active:true}},
+    {$sort:{price:-1}},
+    {$limit:5}
+]);
+
+//uso de min y max
+db.products.aggregate([
+    {$group:{
+        _id:null,
+        minPrice:{ $min: "$price"},
+        maxPrice:{ $max: "$price"}
+    }}
+]);
+
+db.products.aggregate([
+    {$group:{
+        _id:"$category",
+        minPrice:{ $min: "$price"},
+        maxPrice:{ $max: "$price"}
+    }}
+])
+
+//uso de avg
+db.products.aggregate([
+    {$group:{
+        _id:"$category",
+        promedioPrice:{ $avg: "$price"}
+    }}
+]);
