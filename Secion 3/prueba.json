@@ -1,19 +1,15 @@
-//En este readme estan todos los pasos de lo que hicimos este archivo llamado secion 3 es de la clse del dia 1 de julio del 2026 ademas el archivo clients invoices y products son los archivos que usamos para hacer este proyecto. Nota: en products modifique unos datos que dijo el profe asi que importante de que uses este 
-
-//EN PRUEBA JSON ESTAN ESTOS COMANDOS LISTO PARA COPIAR Y PEGAR
-
 //Primero:
 // Creamos la base de datos llmada acme_store
 use acme_store
 
 // Luego 
-// Insertamos datos de products invoices y clients 
+// Insertamos datos de products invoices y clientes 
 // Por ejemplo:
 db.invoices.insertMany(
     //aqui el archivo json llamado invoices
 )
 
-//--------------Ejercicios usando match: -----------------------------
+// Ejercicios usando match: 
 
 db.products.aggregate([
     {$match:{
@@ -45,7 +41,6 @@ db.products.aggregate([
     }}
 ]);
 
-
 //buscar cunatos clientes hay por cada ciudad de colombia 
 db.clients.aggregate([
     {$group:{
@@ -62,3 +57,44 @@ db.products.aggregate([
         promedio: { $avg: "$price" }
     }}
 ]);
+
+//uso de project: crea campos que no existan etc
+db.clients.aggregate([
+    {$group:{
+        _id: "$location.city",
+        count: {$sum:1}
+    }},
+    {$project:{
+		_id:0,
+        ciudad: "$_id",
+        cantidadPersonas:"$count"
+    }}
+]);
+
+//mostrar la cantidad de facturas por clientes las cuales tengan menos de 3 items
+  db.invoices.aggregate([
+    {
+        //agrega nuevo campo al documento pueden ser calculados o no calculados size calcula el tamaño de los documentos eso agrega al final d ecada elemento 
+      $addFields: {
+        numItems: { $size: "$items" }
+      }
+    },
+    //copn match esta filtrando docuemntos que tienen menos de 3 items
+    {
+      $match: {
+        numItems: { $lt: 3 }
+      }
+    },
+    
+    {
+      $group: {
+        _id: "$client",
+        totalFacturas: { $sum: 1 }
+      }
+    },
+    {$project:{
+        _id:0,
+        client:"$_id.name",
+        totalFacturas:1
+    }}
+  ]);
