@@ -1,0 +1,29 @@
+// Montrar la tienda y el total que facturo la tienda
+
+db.orders.aggregate([
+    { $unwind: "$items"},
+    { 
+      $group: {
+        _id: { Store: "$store" },
+        totalVenta: {$sum: { $multiply: [ "$items.price", "$items.quantity" ]}}
+      }}
+  ]);
+
+// mostrar por tienda y estatus cuantas ordenes que hay 
+db.orders.aggregate([
+    {
+    	$group: {
+        _id: { store: "$store", status: "$status" },
+        ordenes: { $sum: 1 }
+        }
+    },
+    {
+        $project: {
+            _id: 0,
+            store: "$_id.store",
+            status: "$_id.status",
+            ordenes: 1
+        }
+    },
+    { $sort: { store: 1, status: 1 } }
+]);
