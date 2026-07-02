@@ -132,6 +132,7 @@ db.invoices.aggregate([
     {$skip:5},
     {$limit:3}
 ]);
+
 //-1 es para que sea acendente
 db.products.aggregate([
     {$match:{active:true}},
@@ -148,6 +149,7 @@ db.products.aggregate([
     }}
 ]);
 
+//
 db.products.aggregate([
     {$group:{
         _id:"$category",
@@ -163,3 +165,74 @@ db.products.aggregate([
         promedioPrice:{ $avg: "$price"}
     }}
 ]);
+
+// clientes que menos han comprado en sentido monetario 
+  //pasos para organizar tareas: analizar lo que se me esta pidiendo, ubicar donde estan los datos que se me solicita, analizar todo mi contexto, analizar que es lo que me falta 
+  db.invoices.aggregate([
+    {$match:{"invoiceNumber": "FACT-0001"}},
+    {$unwind: "$items"}
+  ])
+  //para este ejecicio usaremos unwind el cual trabaja sobre arreglos lo que hace es seroparar los elementos. 
+  //unwind va a trabajar con 1 documento este desglozara el arreglo en diferentes docuemntos convierte arreglos ene subdocumento
+  // crea un docuemnto por cada item 
+  db.invoices.aggregate([
+    {$match:{"invoiceNumber": "FACT-0001"}},
+    {$unwind: "$items"},
+    {$project:{
+      invoiceNUmber:1,
+      totalItem:{$multiply:["$items.price","$items.cantidad"]}}}
+  ])
+//buscar total de un cliente
+  db.invoices.aggregate([
+    {$match:{"invoiceNumber": "FACT-0001"}},
+    {$unwind: "$items"},
+    {$group:{
+      _id: {clientId: "$client.id",clientName:"$client.name"},
+      totalFacturado:{$sum:{$multiply:["$items.price","$items.cantidad"]}}
+    }}
+  ])
+
+//buscar total por todos los clientes 
+db.invoices.aggregate([
+  {$unwind: "$items"},
+  {$group:{
+    _id: {clientId: "$client.id",clientName:"$client.name"},
+    totalFacturado:{$sum:{$multiply:["$items.price","$items.cantidad"]}}
+  }}
+])
+
+//3 clientes que menos han comprado en sentido monetario 
+db.invoices.aggregate([
+  {$unwind: "$items"},
+  {$group:{
+    _id: {clientId: "$client.id",clientName:"$client.name"},
+    totalFacturado:{$sum:{$multiply:["$items.price","$items.cantidad"]}}
+  }},
+  {$sort:{totalFacturado:1}},
+  {$limit:3},
+  //esto se lo puedes quitar o dejarlo
+  {$project:{
+    _id:0,
+    clientId:"$_id.clientId",
+    clientName:"$_id.clientName",
+    totalFacturado:1
+  }}
+])
+  
+//otra forma
+db.invoices.aggregate([
+  { $unwind: "$items"},
+  { $group: {
+      _id: { clientId: "$client.id", clientName: "$client.name" },
+      totalFacturado: { $sum: { $multiply: [ "$items.price", "$items.cantidad" ]}}
+  }},
+  { $sort: { totalFacturado: 1 }},
+  { $limit: 3 },
+  { $project: {
+    _id: 0,
+    //para convertir a texto se usa to string
+    cliente: { $concat: [ { $toString: "$_id.clientId" }, ' - ', "$_id.clientName" ]},
+    totalFacturado: 1
+  }}
+]);
+
