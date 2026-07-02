@@ -27,3 +27,54 @@ db.orders.aggregate([
     },
     { $sort: { store: 1, status: 1 } }
 ]);
+
+// totoal vendido por cada producto en cada tienda 
+db.orders.aggregate([
+    { $unwind: "$items"},
+    { 
+      $group: {
+        _id: { Store: "$store",codigo:"$items.code"},
+        totalVendido: {$sum: { $multiply: [ "$items.price", "$items.quantity" ]}}
+      }}
+  ]);
+
+        //otras soluciones 
+        db.orders.aggregate([
+
+            { $unwind: "$items" },
+        
+            {
+        
+                $group: {
+        
+                    _id: { store: "$store", code: "$items.code" },
+        
+                    Total: { $sum: { $multiply: ["$items.price", "$items.quantity"] } }
+        
+                }
+        
+            },
+        
+            {
+        
+                $project: {
+        
+                    _id: 0,
+        
+                    store: "$_id.store",
+        
+                    Producto: "$_id.code",
+        
+                    Total: 1
+        
+                }
+        
+            },
+        
+            { $sort: { store: 1, Producto: 1 } }
+        
+        ]);
+ 
+        
+
+
