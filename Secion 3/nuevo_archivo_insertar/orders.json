@@ -1,0 +1,99 @@
+[
+  {
+    "_id": 101,
+    "store": "Norte",
+    "date": ISODate("2026-01-15T10:00:00Z"),
+    "status": "Entregado",
+    "paymentMethod": "Tarjeta de Crédito",
+    "shippingCost": 15,
+    "customer": { "id": 15024445, "city": "Bogotá" },
+    "items": [
+      { "code": "P001", "category": "Periféricos", "price": 50, "quantity": 2 },
+      { "code": "P002", "category": "Componentes", "price": 1000, "quantity": 1 }
+    ],
+    "taxes": 190
+  },
+  {
+    "_id": 102,
+    "store": "Sur",
+    "date": ISODate("2026-01-18T14:30:00Z"),
+    "status": "Entregado",
+    "paymentMethod": "Efectivo",
+    "shippingCost": 10,
+    "customer": { "id": 23456789, "city": "Medellín" },
+    "items": [
+      { "code": "P004", "category": "Monitores", "price": 600, "quantity": 1 },
+      { "code": "P015", "category": "Accesorios", "price": 40, "quantity": 3 }
+    ],
+    "taxes": 110
+  },
+  {
+    "_id": 103,
+    "store": "Norte",
+    "date": ISODate("2026-02-02T09:15:00Z"),
+    "status": "Cancelado",
+    "paymentMethod": "Tarjeta de Crédito",
+    "shippingCost": 15,
+    "customer": { "id": 34567890, "city": "Cali" },
+    "items": [
+      { "code": "P012", "category": "Componentes", "price": 2500, "quantity": 1 }
+    ],
+    "taxes": 475
+  },
+  {
+    "_id": 104,
+    "store": "Centro",
+    "date": ISODate("2026-02-10T16:00:00Z"),
+    "status": "En camino",
+    "paymentMethod": "Transferencia",
+    "shippingCost": 0,
+    "customer": { "id": 15024445, "city": "Bogotá" },
+    "items": [
+      { "code": "P003", "category": "Periféricos", "price": 350, "quantity": 2 },
+      { "code": "P019", "category": "Periféricos", "price": 90, "quantity": 2 },
+      { "code": "P011", "category": "Almacenamiento", "price": 550, "quantity": 1 }
+    ],
+    "taxes": 140
+  },
+  {
+    "_id": 105,
+    "store": "Sur",
+    "date": ISODate("2026-02-25T11:20:00Z"),
+    "status": "Entregado",
+    "paymentMethod": "Tarjeta de Crédito",
+    "shippingCost": 12,
+    "customer": { "id": 89012345, "city": "Manizales" },
+    "items": [
+      { "code": "P007", "category": "Componentes", "price": 1200, "quantity": 1 },
+      { "code": "P013", "category": "Componentes", "price": 150, "quantity": 1 }
+    ],
+    "taxes": 255
+  },
+  {
+    "_id": 106,
+    "store": "Centro",
+    "date": ISODate("2026-03-01T13:45:00Z"),
+    "status": "Entregado",
+    "paymentMethod": "Efectivo",
+    "shippingCost": 8,
+    "customer": { "id": 45678901, "city": "Barranquilla" },
+    "items": [
+      { "code": "P001", "category": "Periféricos", "price": 50, "quantity": 5 }
+    ],
+    "taxes": 45
+  },
+  {
+    "_id": 107,
+    "store": "Norte",
+    "date": ISODate("2026-03-12T10:00:00Z"),
+    "status": "En camino",
+    "paymentMethod": "Transferencia",
+    "shippingCost": 15,
+    "customer": { "id": 23456789, "city": "Medellín" },
+    "items": [
+      { "code": "P018", "category": "Mobiliario", "price": 1100, "quantity": 1 },
+      { "code": "P005", "category": "Almacenamiento", "price": 280, "quantity": 2 }
+    ],
+    "taxes": 315
+  }
+]

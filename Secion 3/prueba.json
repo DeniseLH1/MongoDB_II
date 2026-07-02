@@ -236,3 +236,30 @@ db.invoices.aggregate([
   }}
 ]);
 
+// lista de productos por cada categorias
+db.products.aggregate([
+  {
+    $group:{
+      _id:"$category",
+      productos:{$push: {$concat:["$code", " - ", "$name"]}}
+    }
+  }
+])
+
+//cuanto en total he vendido por producto
+db.invoices.aggregate([
+  { $unwind: "$items"},
+  {
+    $group:{
+      _id:{ productId: "$items.code", productName: "$items.name" },
+      totalVendido: { $sum: { $multiply: [ "$items.price", "$items.cantidad" ]}}
+    }}
+    //{$project:{
+    //  _id:0,
+    //  productId: "$productId",
+    //  productName: "$productName",
+    //  totalvendido: "$totalVendido"
+    //}}
+])
+
+
