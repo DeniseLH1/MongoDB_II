@@ -31,10 +31,10 @@ db.adminCommand({
     setParameter: 1,
     transactionLifetimeLimitSeconds: 120 }
 );
-// -------------------------------------------------
+// --------------------------------------------------------------------------
 
 const session = db.getMongo().startSession();
-
+//seteo de coleccion
 const inventory = session.getDatabase("campus").inventory
 
 const productsReturns = session.getDatabase("campus").productsReturns
@@ -55,3 +55,24 @@ productsReturns.insertOne({
 session.commitTransaction();
 
 session.endSession()
+
+// -----------------------------------------------------------------------------
+const session = db.getMongo().startSession();
+//seteo de coleccion
+const inventory = session.getDatabase("campus").inventory
+const matches = session.getDatabase("campus").matches
+//inicio de secion
+session.startTransaction();
+
+
+//insencible que no halla diferencia entre minusculas y mayusculas 
+const result= db.inventory.find({
+    "item.description":{$regex: "line", $options:"i"}
+}).toArray();
+/*para imprimir el resultado 
+console.log(result)*/ 
+
+if (result.length>0)
+    matches.insertMany(result);
+session.commitTransaction();
+session.endSession();
