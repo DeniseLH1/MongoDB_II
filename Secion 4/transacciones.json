@@ -1,0 +1,23 @@
+const session = db.getMongo().startSession();
+
+const inventory = session.getDatabase("campus").inventory
+
+session.startTransaction();
+
+inventory.updateOne(
+    {_id:1},
+    {$inc:{qty:-5}}
+);
+
+inventory.insertOne({
+    _id:6,
+    item: {
+        name:"uv", 
+        code:"999",
+        description:"Inserted via transacción"
+    },
+    qty:10,
+    tags:["U","V"]
+})
+
+seccion.endSession();

@@ -1,6 +1,8 @@
 crear base de datos llamado campus
 use campus
+
 luego insertar lo siguiente:
+
 db.inventory.insertMany([
   { _id: 1, item: { name: "ab", code: "123", description : "Single line description." }, qty: 15, tags: ["A", "B", "C"] },
   { _id: 2, item: { name: "cd", code: "123", description : "First line\nSecond line" }, qty: 20, tags: ["B"] },
