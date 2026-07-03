@@ -1,0 +1,554 @@
+[
+    {
+      "name": "Juan Baez",
+      "phone": "+57 3052653145",
+      "email": "jbaez@netmail.com",
+      "gender": "M",
+      "hobbies": ["Música", "Lectura"],
+      "grades": [
+        { "subject": "Matemáticas", "grade": 82 },
+        { "subject": "Español", "grade": 90 }
+      ]
+    },
+    {
+      "name": "Camila Restrepo",
+      "phone": "+57 3114567890",
+      "email": "crestrepo@netmail.com",
+      "gender": "F",
+      "hobbies": ["Ciclismo", "Senderismo", "Pintura"],
+      "grades": [
+        { "subject": "Matemáticas", "grade": 75 },
+        { "subject": "Historia", "grade": 88 }
+      ]
+    },
+    {
+      "name": "Andrés Mendoza",
+      "phone": "+57 3152345678",
+      "email": "amendoza@netmail.com",
+      "gender": "M",
+      "hobbies": ["Videojuegos", "Cine"],
+      "grades": [
+        { "subject": "Matemáticas", "grade": 64 },
+        { "subject": "Ciencias", "grade": 78 }
+      ]
+    },
+    {
+      "name": "Sofia Silva",
+      "phone": "+57 3009876543",
+      "email": "ssilva@netmail.com",
+      "gender": "F",
+      "hobbies": ["Música", "Lectura", "Ciclismo", "Senderismo", "Pintura", "Videojuegos", "Cine", "Trotar"],
+      "grades": [
+        { "subject": "Matemáticas", "grade": 95 },
+        { "subject": "Geografía", "grade": 92 }
+      ]
+    },
+    {
+      "name": "Mateo Gomez",
+      "phone": "+57 3123456789",
+      "email": "mgomez@netmail.com",
+      "gender": "M",
+      "grades": [
+        { "subject": "Matemáticas", "grade": 70 },
+        { "subject": "Inglés", "grade": 85 }
+      ]
+    },
+    {
+      "name": "Valeria Jaramillo",
+      "phone": "+57 3145678901",
+      "email": "vjaramillo@netmail.com",
+      "gender": "F",
+      "hobbies": ["Trotar", "Cine"],
+      "grades": [
+        { "subject": "Matemáticas", "grade": 88 },
+        { "subject": "Arte", "grade": 95 }
+      ]
+    },
+    {
+      "name": "Santiago Arias",
+      "phone": "+57 3186543210",
+      "email": "sarias@netmail.com",
+      "gender": "M",
+      "hobbies": ["Ciclismo", "Videojuegos", "Música"],
+      "grades": [
+        { "subject": "Matemáticas", "grade": 59 },
+        { "subject": "Tecnología", "grade": 81 }
+      ]
+    },
+    {
+      "name": "Daniela Ortíz",
+      "phone": "+57 3107654321",
+      "email": "dortiz@netmail.com",
+      "gender": "F",
+      "hobbies": ["Lectura", "Pintura"],
+      "grades": [
+        { "subject": "Matemáticas", "grade": 91 },
+        { "subject": "Literatura", "grade": 89 }
+      ]
+    },
+    {
+      "name": "Alejandro Tobón",
+      "phone": "+57 3054321098",
+      "email": "atobon@netmail.com",
+      "gender": "M",
+      "hobbies": ["Senderismo"],
+      "grades": [
+        { "subject": "Matemáticas", "grade": 73 },
+        { "subject": "Educación Física", "grade": 94 }
+      ]
+    },
+    {
+      "name": "Gabriela Ruiz",
+      "phone": "+57 3165432109",
+      "email": "gruiz@netmail.com",
+      "gender": "F",
+      "hobbies": ["Cine", "Lectura", "Música", "Trotar"],
+      "grades": [
+        { "subject": "Matemáticas", "grade": 80 },
+        { "subject": "Biología", "grade": 87 }
+      ]
+    },
+    {
+      "name": "Nicolás Cardona",
+      "phone": "+57 3132109876",
+      "email": "ncardona@netmail.com",
+      "gender": "M",
+      "hobbies": ["Videojuegos"],
+      "grades": [
+        { "subject": "Matemáticas", "grade": 68 },
+        { "subject": "Sistemas", "grade": 76 }
+      ]
+    },
+    {
+      "name": "Mariana Vélez",
+      "phone": "+57 3178901234",
+      "email": "mvelez@netmail.com",
+      "gender": "F",
+      "hobbies": ["Pintura", "Ciclismo", "Senderismo"],
+      "grades": [
+        { "subject": "Matemáticas", "grade": 84 },
+        { "subject": "Química", "grade": 79 }
+      ]
+    },
+    {
+      "name": "Sebastian Marín",
+      "phone": "+57 3190123456",
+      "email": "smarin@netmail.com",
+      "gender": "M",
+      "hobbies": [],
+      "grades": [
+        { "subject": "Matemáticas", "grade": 77 },
+        { "subject": "Física", "grade": 71 }
+      ]
+    },
+    {
+      "name": "Isabella Muñoz",
+      "phone": "+57 3012345678",
+      "email": "imunoz@netmail.com",
+      "gender": "F",
+      "hobbies": ["Música", "Cine", "Videojuegos"],
+      "grades": [
+        { "subject": "Matemáticas", "grade": 93 },
+        { "subject": "Música", "grade": 100 }
+      ]
+    },
+    {
+      "name": "Samuel Torres",
+      "phone": "+57 3045678901",
+      "email": "storres@netmail.com",
+      "gender": "M",
+      "hobbies": ["Trotar", "Senderismo", "Ciclismo"],
+      "grades": [
+        { "subject": "Matemáticas", "grade": 65 },
+        { "subject": "Geometría", "grade": 74 }
+      ]
+    },
+    {
+      "name": "Luciana Castro",
+      "phone": "+57 3023456789",
+      "email": "lcastro@netmail.com",
+      "gender": "F",
+      "grades": [
+        { "subject": "Matemáticas", "grade": 81 },
+        { "subject": "Filosofía", "grade": 86 }
+      ]
+    },
+    {
+      "name": "Lucas Ramirez",
+      "phone": "+57 3201234567",
+      "email": "lramirez@netmail.com",
+      "gender": "M",
+      "hobbies": ["Cine", "Pintura"],
+      "grades": [
+        { "subject": "Matemáticas", "grade": 72 },
+        { "subject": "Arte", "grade": 90 }
+      ]
+    },
+    {
+      "name": "Salomé Díaz",
+      "phone": "+57 3214567890",
+      "email": "sdiaz@netmail.com",
+      "gender": "F",
+      "hobbies": ["Música", "Lectura", "Cine"],
+      "grades": [
+        { "subject": "Matemáticas", "grade": 89 },
+        { "subject": "Castellano", "grade": 93 }
+      ]
+    },
+    {
+      "name": "Diego Espinosa",
+      "phone": "+57 3227654321",
+      "email": "despinosa@netmail.com",
+      "gender": "M",
+      "hobbies": ["Videojuegos", "Trotar"],
+      "grades": [
+        { "subject": "Matemáticas", "grade": 70 },
+        { "subject": "Estadística", "grade": 68 }
+      ]
+    },
+    {
+      "name": "Manuela Gutiérrez",
+      "phone": "+57 3112345670",
+      "email": "mgutierrez@netmail.com",
+      "gender": "F",
+      "hobbies": ["Senderismo", "Ciclismo", "Lectura", "Pintura"],
+      "grades": [
+        { "subject": "Matemáticas", "grade": 96 },
+        { "subject": "Sociales", "grade": 94 }
+      ]
+    },
+    {
+      "name": "Felipe Vargas",
+      "phone": "+57 3158765432",
+      "email": "fvargas@netmail.com",
+      "gender": "M",
+      "hobbies": ["Música", "Videojuegos"],
+      "grades": [
+        { "subject": "Matemáticas", "grade": 63 },
+        { "subject": "Informática", "grade": 85 }
+      ]
+    },
+    {
+      "name": "Paulina Herrera",
+      "phone": "+57 3004321098",
+      "email": "pherrera@netmail.com",
+      "gender": "F",
+      "hobbies": [],
+      "grades": [
+        { "subject": "Matemáticas", "grade": 78 },
+        { "subject": "Ética", "grade": 89 }
+      ]
+    },
+    {
+      "name": "Esteban Morales",
+      "phone": "+57 3129876543",
+      "email": "emorales@netmail.com",
+      "gender": "M",
+      "hobbies": ["Ciclismo", "Trotar"],
+      "grades": [
+        { "subject": "Matemáticas", "grade": 82 },
+        { "subject": "Cívica", "grade": 80 }
+      ]
+    },
+    {
+      "name": "Natalia Delgado",
+      "phone": "+57 3142345678",
+      "email": "ndelgado@netmail.com",
+      "gender": "F",
+      "hobbies": ["Pintura", "Cine"],
+      "grades": [
+        { "subject": "Matemáticas", "grade": 85 },
+        { "subject": "Dibujo", "grade": 91 }
+      ]
+    },
+    {
+      "name": "Juan Pablo Ríos",
+      "phone": "+57 3183456789",
+      "email": "jrios@netmail.com",
+      "gender": "M",
+      "hobbies": ["Música", "Lectura", "Ciclismo", "Senderismo", "Pintura", "Videojuegos", "Cine", "Trotar"],
+      "grades": [
+        { "subject": "Matemáticas", "grade": 90 },
+        { "subject": "Cálculo", "grade": 87 }
+      ]
+    },
+    {
+      "name": "Elena Benítez",
+      "phone": "+57 3105678901",
+      "email": "ebenitez@netmail.com",
+      "gender": "F",
+      "hobbies": ["Lectura", "Senderismo"],
+      "grades": [
+        { "subject": "Matemáticas", "grade": 87 },
+        { "subject": "Biología", "grade": 93 }
+      ]
+    },
+    {
+      "name": "Carlos Andrés Bermúdez",
+      "phone": "+57 3059876543",
+      "email": "cbermudez@netmail.com",
+      "gender": "M",
+      "hobbies": ["Videojuegos", "Cine", "Música"],
+      "grades": [
+        { "subject": "Matemáticas", "grade": 74 },
+        { "subject": "Inglés", "grade": 82 }
+      ]
+    },
+    {
+      "name": "María José Palacio",
+      "phone": "+57 3162345678",
+      "email": "mpalacio@netmail.com",
+      "gender": "F",
+      "grades": [
+        { "subject": "Matemáticas", "grade": 79 },
+        { "subject": "Historia", "grade": 84 }
+      ]
+    },
+    {
+      "name": "Jorge Eliécer Suárez",
+      "phone": "+57 3137654321",
+      "email": "jsuarez@netmail.com",
+      "gender": "M",
+      "hobbies": ["Ciclismo", "Senderismo"],
+      "grades": [
+        { "subject": "Matemáticas", "grade": 66 },
+        { "subject": "Geografía", "grade": 72 }
+      ]
+    },
+    {
+      "name": "Catalina Villa",
+      "phone": "+57 3173456789",
+      "email": "cvilla@netmail.com",
+      "gender": "F",
+      "hobbies": ["Pintura", "Lectura", "Música"],
+      "grades": [
+        { "subject": "Matemáticas", "grade": 92 },
+        { "subject": "Literatura", "grade": 95 }
+      ]
+    },
+    {
+      "name": "Miguel Ángel Franco",
+      "phone": "+57 3196543210",
+      "email": "mfranco@netmail.com",
+      "gender": "M",
+      "hobbies": ["Videojuegos"],
+      "grades": [
+        { "subject": "Matemáticas", "grade": 71 },
+        { "subject": "Tecnología", "grade": 78 }
+      ]
+    },
+    {
+      "name": "Valentina Montoya",
+      "phone": "+57 3017654321",
+      "email": "vmontoya@netmail.com",
+      "gender": "F",
+      "hobbies": [],
+      "grades": [
+        { "subject": "Matemáticas", "grade": 83 },
+        { "subject": "Química", "grade": 86 }
+      ]
+    },
+    {
+      "name": "David Alejandro Gil",
+      "phone": "+57 3042345678",
+      "email": "dgil@netmail.com",
+      "gender": "M",
+      "hobbies": ["Cine", "Trotar", "Ciclismo"],
+      "grades": [
+        { "subject": "Matemáticas", "grade": 69 },
+        { "subject": "Educación Física", "grade": 98 }
+      ]
+    },
+    {
+      "name": "Camila Andrea Peña",
+      "phone": "+57 3029876543",
+      "email": "cpena@netmail.com",
+      "gender": "F",
+      "hobbies": ["Lectura", "Pintura"],
+      "grades": [
+        { "subject": "Matemáticas", "grade": 86 },
+        { "subject": "Arte", "grade": 92 }
+      ]
+    },
+    {
+      "name": "Tomás Eduardo Agudelo",
+      "phone": "+57 3206543210",
+      "email": "tagudelo@netmail.com",
+      "gender": "M",
+      "hobbies": ["Música", "Senderismo"],
+      "grades": [
+        { "subject": "Matemáticas", "grade": 75 },
+        { "subject": "Música", "grade": 88 }
+      ]
+    },
+    {
+      "name": "Sara Victoria Hoyos",
+      "phone": "+57 3217654321",
+      "email": "shoyos@netmail.com",
+      "gender": "F",
+      "hobbies": ["Cine", "Videojuegos", "Lectura"],
+      "grades": [
+        { "subject": "Matemáticas", "grade": 91 },
+        { "subject": "Sistemas", "grade": 89 }
+      ]
+    },
+    {
+      "name": "Daniel Fernando Patiño",
+      "phone": "+57 3223456789",
+      "email": "dpatino@netmail.com",
+      "gender": "M",
+      "hobbies": ["Trotar", "Ciclismo", "Senderismo"],
+      "grades": [
+        { "subject": "Matemáticas", "grade": 62 },
+        { "subject": "Física", "grade": 70 }
+      ]
+    },
+    {
+      "name": "Laura Camila Restrepo",
+      "phone": "+57 3117654321",
+      "email": "lrestrepo@netmail.com",
+      "gender": "F",
+      "hobbies": ["Pintura", "Música"],
+      "grades": [
+        { "subject": "Matemáticas", "grade": 88 },
+        { "subject": "Castellano", "grade": 84 }
+      ]
+    },
+    {
+      "name": "Julian David Henao",
+      "phone": "+57 3159876543",
+      "email": "jhenao@netmail.com",
+      "gender": "M",
+      "grades": [
+        { "subject": "Matemáticas", "grade": 76 },
+        { "subject": "Álgebra", "grade": 80 }
+      ]
+    },
+    {
+      "name": "Sofia Alejandra Alvarez",
+      "phone": "+57 3002345678",
+      "email": "salvarez@netmail.com",
+      "gender": "F",
+      "hobbies": [],
+      "grades": [
+        { "subject": "Matemáticas", "grade": 80 },
+        { "subject": "Biología", "grade": 85 }
+      ]
+    },
+    {
+      "name": "Ricardo Alberto Correa",
+      "phone": "+57 3126543210",
+      "email": "rcorrea@netmail.com",
+      "gender": "M",
+      "hobbies": ["Lectura", "Ciclismo", "Trotar"],
+      "grades": [
+        { "subject": "Matemáticas", "grade": 70 },
+        { "subject": "Español", "grade": 78 }
+      ]
+    },
+    {
+      "name": "Verónica María Salazar",
+      "phone": "+57 3149876543",
+      "email": "vsalazar@netmail.com",
+      "gender": "F",
+      "hobbies": ["Senderismo", "Pintura", "Cine"],
+      "grades": [
+        { "subject": "Matemáticas", "grade": 94 },
+        { "subject": "Historia", "grade": 91 }
+      ]
+    },
+    {
+      "name": "Andrés Felipe Londoño",
+      "phone": "+57 3182345678",
+      "email": "alondono@netmail.com",
+      "gender": "M",
+      "hobbies": ["Música", "Videojuegos", "Ciclismo"],
+      "grades": [
+        { "subject": "Matemáticas", "grade": 67 },
+        { "subject": "Tecnología", "grade": 83 }
+      ]
+    },
+    {
+      "name": "Carolina Duque",
+      "phone": "+57 3102345678",
+      "email": "cduque@netmail.com",
+      "gender": "F",
+      "hobbies": ["Lectura", "Trotar"],
+      "grades": [
+        { "subject": "Matemáticas", "grade": 83 },
+        { "subject": "Inglés", "grade": 88 }
+      ]
+    },
+    {
+      "name": "Gabriel Jaime Giraldo",
+      "phone": "+57 3057654321",
+      "email": "ggiraldo@netmail.com",
+      "gender": "M",
+      "hobbies": ["Música", "Lectura", "Ciclismo", "Senderismo", "Pintura", "Videojuegos", "Cine", "Trotar"],
+      "grades": [
+        { "subject": "Matemáticas", "grade": 89 },
+        { "subject": "Geometría", "grade": 92 }
+      ]
+    },
+    {
+      "name": "Adriana Cecilia Gómez",
+      "phone": "+57 3169876543",
+      "email": "agomez@netmail.com",
+      "gender": "F",
+      "hobbies": ["Cine", "Pintura"],
+      "grades": [
+        { "subject": "Matemáticas", "grade": 76 },
+        { "subject": "Arte", "grade": 85 }
+      ]
+    },
+    {
+      "name": "Manuel Salvador Quintero",
+      "phone": "+57 3136543210",
+      "email": "mquintero@netmail.com",
+      "gender": "M",
+      "hobbies": ["Senderismo", "Videojuegos"],
+      "grades": [
+        { "subject": "Matemáticas", "grade": 71 },
+        { "subject": "Ciencias", "grade": 74 }
+      ]
+    },
+    {
+      "name": "Diana Marcela Pineda",
+      "phone": "+57 3172345678",
+      "email": "dpineda@netmail.com",
+      "gender": "F",
+      "hobbies": ["Ciclismo", "Lectura"],
+      "grades": [
+        { "subject": "Matemáticas", "grade": 82 },
+        { "subject": "Sociales", "grade": 80 }
+      ]
+    },
+    {
+      "name": "Camilo Ernesto Arango",
+      "phone": "+57 3192345678",
+      "email": "carango@netmail.com",
+      "gender": "M",
+      "hobbies": ["Música", "Trotar"],
+      "grades": [
+        { "subject": "Matemáticas", "grade": 65 },
+        { "subject": "Física", "grade": 72 }
+      ]
+    },
+    {
+      "name": "Paola Andrea Posada",
+      "phone": "+57 3019876543",
+      "email": "pposada@netmail.com",
+      "gender": "F",
+      "hobbies": ["Lectura", "Cine", "Videojuegos", "Pintura"],
+      "grades": [
+        { "subject": "Matemáticas", "grade": 90 },
+        { "subject": "Filosofía", "grade": 93 }
+      ]
+    }
+  ]
+
+//   use acme_school
+//   collection name students
+
+//   db.students.insertMany();
+
