@@ -2,6 +2,7 @@
 
 // db.createCollection("books")
 
+/*
 db.books.insertMany( 
 [
     {
@@ -36,3 +37,33 @@ db.books.insertMany(
         cantidad: 1 
     }
 ]);
+*/
+
+// creacion de  indices
+db.books.createIndex({autor:1});
+
+
+db.books.createIndex( 
+    {titulo:1},
+    {name:'inx_books_titulo'}
+);
+
+
+db.books.getIndexes();
+
+//-----------------------------------------------------------------------------------
+//este sera usando la base de datos de acme_store:
+
+db.invoices.createIndex(
+    {invoiceNumber:1},
+    {
+        name:'inx_invoice_invoiceNumber',
+        unique:true,
+        background:true
+    }
+)
+
+
+db.invoices.getIndexes();
+
+
