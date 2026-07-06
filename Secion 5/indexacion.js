@@ -67,3 +67,89 @@ db.invoices.createIndex(
 db.invoices.getIndexes();
 
 
+db.invoices.insertOne({invoiceNumber:'FACT-0001'});
+
+
+db.inventory.insertOne({
+    "_id":6,
+    "item":{
+        "name": "XZ",
+        "code": "999"
+    },
+    "tags":["A"]
+})
+
+
+db.campus.inventory.createIndex(
+    {qty: -1},
+    {
+        name:'inx_inventory_qty',
+        sparse:true,
+        background:true
+  }
+  );
+
+
+db.createCollection(
+    'userSessions',
+    { autoIndexId:false}
+)
+
+
+db.createIndex(
+    {userCode:1},
+    {
+        name:'inx_userSessions_userCode',
+        unique:'true',
+        expireAfterSession:60
+    }
+)
+
+db.userSessions.dropIndex('inx_userSessions_userCode');
+
+
+
+db.userSessions.createIndex(
+    {userCode: 1},
+    {
+        name: 'inx_userSessions_userCode',
+        unique: true,
+        expireAfterSession: 60
+    }
+);
+
+
+db.userSessions.dropIndex('inx_userSessions_userCode');
+
+
+
+{
+    userCode: '001',
+    sessionHash: 'nedjdhiegfhedfuefhue',
+    page: 'Como evitar el sueño en clases'
+}
+
+{
+    userCode: '002',
+    sessionHash: 'nedjdhiegfhedfuefhue',
+    page: 'Como evitar el chisme en clases'
+}
+
+{
+    userCode: '003',
+    sessionHash: 'nedjdhiegfhedfuefhue',
+    page: 'Como evitar el sueño en clases',
+    createAt: new Date()
+}
+
+{
+    userCode: '004',
+    sessionHash: 'nedjdhiegfhedfuefhue',
+    page: 'Como evitar el chisme en clases',
+    createAt: new Date()
+}
+
+db.orders.createIndex(
+    {store:1,status:-1},
+    {name: 'i9nx_orders_store_status'}
+)
