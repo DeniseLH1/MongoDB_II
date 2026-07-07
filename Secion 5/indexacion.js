@@ -96,19 +96,6 @@ db.createCollection(
 )
 
 
-db.createIndex(
-    {userCode:1},
-    {
-        name:'inx_userSessions_userCode',
-        unique:'true',
-        expireAfterSession:60
-    }
-)
-
-db.userSessions.dropIndex('inx_userSessions_userCode');
-
-
-
 db.userSessions.createIndex(
     {userCode: 1},
     {
@@ -122,34 +109,74 @@ db.userSessions.createIndex(
 db.userSessions.dropIndex('inx_userSessions_userCode');
 
 
+db.userSessions.insertOne(
+    {
+        userCode: '001',
+        sessionHash: 'nedjdhiegfhedfuefhue',
+        page: 'Como evitar el sueño en clases'
+    }
+    
+)
 
-{
-    userCode: '001',
-    sessionHash: 'nedjdhiegfhedfuefhue',
-    page: 'Como evitar el sueño en clases'
-}
+db.userSessions.insertOne(
+    {
+        userCode: '002',
+        sessionHash: 'nedjdhiegfhedfuefhue',
+        page: 'Como evitar el chisme en clases'
+    }    
+)
 
-{
-    userCode: '002',
-    sessionHash: 'nedjdhiegfhedfuefhue',
-    page: 'Como evitar el chisme en clases'
-}
+db.userSessions.insertOne(
+    {
+        userCode: '003',
+        sessionHash: 'nedjdhiegfhedfuefhue',
+        page: 'Como evitar el sueño en clases',
+        createAt: new Date()
+    }
+)
 
-{
-    userCode: '003',
-    sessionHash: 'nedjdhiegfhedfuefhue',
-    page: 'Como evitar el sueño en clases',
-    createAt: new Date()
-}
+db.userSessions.insertOne(
+    {
+        userCode: '004',
+        sessionHash: 'nedjdhiegfhedfuefhue',
+        page: 'Como evitar el chisme en clases',
+        createAt: new Date()
+    }
+)
 
-{
-    userCode: '004',
-    sessionHash: 'nedjdhiegfhedfuefhue',
-    page: 'Como evitar el chisme en clases',
-    createAt: new Date()
-}
 
 db.orders.createIndex(
     {store:1,status:-1},
     {name: 'i9nx_orders_store_status'}
+)
+
+
+//--------------------7 de julio usando la base de datos llamado campus------------------------
+//indice simple esta compuesto por un solo campo
+db.inventory.createIndex(
+    //en este indexaremos por 2 indices
+    //1 es acendente y -1 es decendente
+    {"item.code":1},
+    {name:'inx_inventory_itemCode'}
+
+)
+//para obtener indices creados 
+db.inventory.getIndexes()
+
+
+db.inventory.find({"item.code": "123"})
+
+
+//creacion de un subindice para el nombre y codigo de item
+db.inventory.createIndex(
+    {"item.code":1,"item.name":-1},
+    {name:'inx_inventory_itemCode_itemName'}
+
+)
+
+
+//creacion de un subindice para el nombre de item
+db.inventory.createIndex(
+    {"item.name":1},
+    {name:'inx_inventory_itemName'}
 )
