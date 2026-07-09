@@ -19,3 +19,13 @@ db.createCollection('users', {
         }
   }});
 
+// modificacion de esquema de validacion
+//run comand puede solo ser validado por administradores 
+db.runCommand({
+  collMod:'users',
+  validator:{
+    $jsonSchema{
+
+    }
+  }
+})
