@@ -1,0 +1,3117 @@
+[
+  {
+    "_id": "ORD-2024001",
+    "cliente": {
+      "nombre": "Carlos Hernández",
+      "ciudad": "Cali",
+      "dir": "Calle 58 # 10 - 2"
+    },
+    "items": [
+      {
+        "p_id": "PROD001",
+        "name": "Laptop Pro 15\"",
+        "qty": 3,
+        "price": 3500000,
+        "sub": 10500000
+      },
+      {
+        "p_id": "PROD002",
+        "name": "Monitor 27\" 4K",
+        "qty": 3,
+        "price": 1250000,
+        "sub": 3750000
+      },
+      {
+        "p_id": "PROD003",
+        "name": "Teclado Mecánico RGB",
+        "qty": 2,
+        "price": 320000,
+        "sub": 640000
+      },
+      {
+        "p_id": "PROD005",
+        "name": "Silla de Oficina Ergo",
+        "qty": 1,
+        "price": 850000,
+        "sub": 850000
+      }
+    ],
+    "total": 15740000,
+    "fecha": "2026-07-13T04:43:08.160Z",
+    "metodo_pago": "Tarjeta",
+    "estado": "entregado"
+  },
+  {
+    "_id": "ORD-2024002",
+    "cliente": {
+      "nombre": "Juan Castillo",
+      "ciudad": "Cali",
+      "dir": "Calle 80 # 27 - 31"
+    },
+    "items": [
+      {
+        "p_id": "PROD003",
+        "name": "Teclado Mecánico RGB",
+        "qty": 1,
+        "price": 320000,
+        "sub": 320000
+      },
+      {
+        "p_id": "PROD004",
+        "name": "Mouse Ergonómico",
+        "qty": 3,
+        "price": 180000,
+        "sub": 540000
+      },
+      {
+        "p_id": "PROD005",
+        "name": "Silla de Oficina Ergo",
+        "qty": 2,
+        "price": 850000,
+        "sub": 1700000
+      }
+    ],
+    "total": 2560000,
+    "fecha": "2026-07-06T05:38:48.301Z",
+    "metodo_pago": "Tarjeta",
+    "estado": "pendiente"
+  },
+  {
+    "_id": "ORD-2024003",
+    "cliente": {
+      "nombre": "Luis Martínez",
+      "ciudad": "Bucaramanga",
+      "dir": "Calle 34 # 48 - 45"
+    },
+    "items": [
+      {
+        "p_id": "PROD002",
+        "name": "Monitor 27\" 4K",
+        "qty": 3,
+        "price": 1250000,
+        "sub": 3750000
+      }
+    ],
+    "total": 3750000,
+    "fecha": "2026-07-08T13:31:39.467Z",
+    "metodo_pago": "Tarjeta",
+    "estado": "en camino"
+  },
+  {
+    "_id": "ORD-2024004",
+    "cliente": {
+      "nombre": "Beatriz Díaz",
+      "ciudad": "Cali",
+      "dir": "Calle 50 # 36 - 25"
+    },
+    "items": [
+      {
+        "p_id": "PROD003",
+        "name": "Teclado Mecánico RGB",
+        "qty": 2,
+        "price": 320000,
+        "sub": 640000
+      },
+      {
+        "p_id": "PROD001",
+        "name": "Laptop Pro 15\"",
+        "qty": 2,
+        "price": 3500000,
+        "sub": 7000000
+      }
+    ],
+    "total": 7640000,
+    "fecha": "2026-07-09T04:25:24.062Z",
+    "metodo_pago": "Efectivo",
+    "estado": "en camino"
+  },
+  {
+    "_id": "ORD-2024005",
+    "cliente": {
+      "nombre": "Diego López",
+      "ciudad": "Bucaramanga",
+      "dir": "Calle 11 # 36 - 23"
+    },
+    "items": [
+      {
+        "p_id": "PROD002",
+        "name": "Monitor 27\" 4K",
+        "qty": 3,
+        "price": 1250000,
+        "sub": 3750000
+      },
+      {
+        "p_id": "PROD001",
+        "name": "Laptop Pro 15\"",
+        "qty": 3,
+        "price": 3500000,
+        "sub": 10500000
+      }
+    ],
+    "total": 14250000,
+    "fecha": "2026-07-03T15:02:25.328Z",
+    "metodo_pago": "Tarjeta",
+    "estado": "entregado"
+  },
+  {
+    "_id": "ORD-2024006",
+    "cliente": {
+      "nombre": "Daniela González",
+      "ciudad": "Barranquilla",
+      "dir": "Calle 89 # 50 - 32"
+    },
+    "items": [
+      {
+        "p_id": "PROD001",
+        "name": "Laptop Pro 15\"",
+        "qty": 2,
+        "price": 3500000,
+        "sub": 7000000
+      },
+      {
+        "p_id": "PROD002",
+        "name": "Monitor 27\" 4K",
+        "qty": 3,
+        "price": 1250000,
+        "sub": 3750000
+      },
+      {
+        "p_id": "PROD004",
+        "name": "Mouse Ergonómico",
+        "qty": 1,
+        "price": 180000,
+        "sub": 180000
+      }
+    ],
+    "total": 10930000,
+    "fecha": "2026-07-13T02:28:16.779Z",
+    "metodo_pago": "Tarjeta",
+    "estado": "entregado"
+  },
+  {
+    "_id": "ORD-2024007",
+    "cliente": {
+      "nombre": "Valentina Martínez",
+      "ciudad": "Bogotá",
+      "dir": "Calle 90 # 12 - 12"
+    },
+    "items": [
+      {
+        "p_id": "PROD001",
+        "name": "Laptop Pro 15\"",
+        "qty": 2,
+        "price": 3500000,
+        "sub": 7000000
+      },
+      {
+        "p_id": "PROD003",
+        "name": "Teclado Mecánico RGB",
+        "qty": 3,
+        "price": 320000,
+        "sub": 960000
+      },
+      {
+        "p_id": "PROD004",
+        "name": "Mouse Ergonómico",
+        "qty": 2,
+        "price": 180000,
+        "sub": 360000
+      }
+    ],
+    "total": 8320000,
+    "fecha": "2026-07-03T23:46:42.068Z",
+    "metodo_pago": "Tarjeta",
+    "estado": "en camino"
+  },
+  {
+    "_id": "ORD-2024008",
+    "cliente": {
+      "nombre": "Valentina Castillo",
+      "ciudad": "Bogotá",
+      "dir": "Calle 85 # 44 - 39"
+    },
+    "items": [
+      {
+        "p_id": "PROD003",
+        "name": "Teclado Mecánico RGB",
+        "qty": 2,
+        "price": 320000,
+        "sub": 640000
+      },
+      {
+        "p_id": "PROD001",
+        "name": "Laptop Pro 15\"",
+        "qty": 1,
+        "price": 3500000,
+        "sub": 3500000
+      }
+    ],
+    "total": 4140000,
+    "fecha": "2026-07-09T20:47:51.768Z",
+    "metodo_pago": "Tarjeta",
+    "estado": "entregado"
+  },
+  {
+    "_id": "ORD-2024009",
+    "cliente": {
+      "nombre": "Daniela Sánchez",
+      "ciudad": "Medellín",
+      "dir": "Calle 88 # 7 - 4"
+    },
+    "items": [
+      {
+        "p_id": "PROD003",
+        "name": "Teclado Mecánico RGB",
+        "qty": 3,
+        "price": 320000,
+        "sub": 960000
+      },
+      {
+        "p_id": "PROD001",
+        "name": "Laptop Pro 15\"",
+        "qty": 1,
+        "price": 3500000,
+        "sub": 3500000
+      }
+    ],
+    "total": 4460000,
+    "fecha": "2026-07-10T06:33:54.305Z",
+    "metodo_pago": "Efectivo",
+    "estado": "en camino"
+  },
+  {
+    "_id": "ORD-2024010",
+    "cliente": {
+      "nombre": "Mateo López",
+      "ciudad": "Bucaramanga",
+      "dir": "Calle 49 # 29 - 33"
+    },
+    "items": [
+      {
+        "p_id": "PROD001",
+        "name": "Laptop Pro 15\"",
+        "qty": 3,
+        "price": 3500000,
+        "sub": 10500000
+      },
+      {
+        "p_id": "PROD003",
+        "name": "Teclado Mecánico RGB",
+        "qty": 2,
+        "price": 320000,
+        "sub": 640000
+      },
+      {
+        "p_id": "PROD002",
+        "name": "Monitor 27\" 4K",
+        "qty": 3,
+        "price": 1250000,
+        "sub": 3750000
+      }
+    ],
+    "total": 14890000,
+    "fecha": "2026-07-08T03:30:41.110Z",
+    "metodo_pago": "Tarjeta",
+    "estado": "en camino"
+  },
+  {
+    "_id": "ORD-2024011",
+    "cliente": {
+      "nombre": "Isabella Álvarez",
+      "ciudad": "Cartagena",
+      "dir": "Calle 83 # 3 - 48"
+    },
+    "items": [
+      {
+        "p_id": "PROD005",
+        "name": "Silla de Oficina Ergo",
+        "qty": 1,
+        "price": 850000,
+        "sub": 850000
+      },
+      {
+        "p_id": "PROD004",
+        "name": "Mouse Ergonómico",
+        "qty": 2,
+        "price": 180000,
+        "sub": 360000
+      },
+      {
+        "p_id": "PROD001",
+        "name": "Laptop Pro 15\"",
+        "qty": 2,
+        "price": 3500000,
+        "sub": 7000000
+      }
+    ],
+    "total": 8210000,
+    "fecha": "2026-07-08T12:35:00.818Z",
+    "metodo_pago": "Tarjeta",
+    "estado": "entregado"
+  },
+  {
+    "_id": "ORD-2024012",
+    "cliente": {
+      "nombre": "Mateo García",
+      "ciudad": "Cali",
+      "dir": "Calle 82 # 19 - 41"
+    },
+    "items": [
+      {
+        "p_id": "PROD002",
+        "name": "Monitor 27\" 4K",
+        "qty": 1,
+        "price": 1250000,
+        "sub": 1250000
+      }
+    ],
+    "total": 1250000,
+    "fecha": "2026-07-09T18:15:33.358Z",
+    "metodo_pago": "Efectivo",
+    "estado": "entregado"
+  },
+  {
+    "_id": "ORD-2024013",
+    "cliente": {
+      "nombre": "Carlos Díaz",
+      "ciudad": "Medellín",
+      "dir": "Calle 36 # 45 - 35"
+    },
+    "items": [
+      {
+        "p_id": "PROD001",
+        "name": "Laptop Pro 15\"",
+        "qty": 1,
+        "price": 3500000,
+        "sub": 3500000
+      },
+      {
+        "p_id": "PROD004",
+        "name": "Mouse Ergonómico",
+        "qty": 1,
+        "price": 180000,
+        "sub": 180000
+      }
+    ],
+    "total": 3680000,
+    "fecha": "2026-07-12T13:08:55.439Z",
+    "metodo_pago": "Tarjeta",
+    "estado": "en camino"
+  },
+  {
+    "_id": "ORD-2024014",
+    "cliente": {
+      "nombre": "Ricardo Vásquez",
+      "ciudad": "Bogotá",
+      "dir": "Calle 68 # 11 - 16"
+    },
+    "items": [
+      {
+        "p_id": "PROD003",
+        "name": "Teclado Mecánico RGB",
+        "qty": 2,
+        "price": 320000,
+        "sub": 640000
+      }
+    ],
+    "total": 640000,
+    "fecha": "2026-07-10T17:33:53.418Z",
+    "metodo_pago": "Efectivo",
+    "estado": "entregado"
+  },
+  {
+    "_id": "ORD-2024015",
+    "cliente": {
+      "nombre": "Sofia Castillo",
+      "ciudad": "Barranquilla",
+      "dir": "Calle 22 # 13 - 26"
+    },
+    "items": [
+      {
+        "p_id": "PROD002",
+        "name": "Monitor 27\" 4K",
+        "qty": 2,
+        "price": 1250000,
+        "sub": 2500000
+      },
+      {
+        "p_id": "PROD001",
+        "name": "Laptop Pro 15\"",
+        "qty": 2,
+        "price": 3500000,
+        "sub": 7000000
+      }
+    ],
+    "total": 9500000,
+    "fecha": "2026-07-03T19:19:11.462Z",
+    "metodo_pago": "Tarjeta",
+    "estado": "pendiente"
+  },
+  {
+    "_id": "ORD-2024016",
+    "cliente": {
+      "nombre": "Mateo Ramírez",
+      "ciudad": "Bucaramanga",
+      "dir": "Calle 84 # 1 - 17"
+    },
+    "items": [
+      {
+        "p_id": "PROD003",
+        "name": "Teclado Mecánico RGB",
+        "qty": 2,
+        "price": 320000,
+        "sub": 640000
+      },
+      {
+        "p_id": "PROD001",
+        "name": "Laptop Pro 15\"",
+        "qty": 3,
+        "price": 3500000,
+        "sub": 10500000
+      },
+      {
+        "p_id": "PROD004",
+        "name": "Mouse Ergonómico",
+        "qty": 2,
+        "price": 180000,
+        "sub": 360000
+      }
+    ],
+    "total": 11500000,
+    "fecha": "2026-07-13T20:34:25.512Z",
+    "metodo_pago": "Efectivo",
+    "estado": "en camino"
+  },
+  {
+    "_id": "ORD-2024017",
+    "cliente": {
+      "nombre": "Camila Castillo",
+      "ciudad": "Barranquilla",
+      "dir": "Calle 14 # 12 - 15"
+    },
+    "items": [
+      {
+        "p_id": "PROD003",
+        "name": "Teclado Mecánico RGB",
+        "qty": 1,
+        "price": 320000,
+        "sub": 320000
+      },
+      {
+        "p_id": "PROD001",
+        "name": "Laptop Pro 15\"",
+        "qty": 1,
+        "price": 3500000,
+        "sub": 3500000
+      },
+      {
+        "p_id": "PROD004",
+        "name": "Mouse Ergonómico",
+        "qty": 2,
+        "price": 180000,
+        "sub": 360000
+      }
+    ],
+    "total": 4180000,
+    "fecha": "2026-07-05T05:45:04.806Z",
+    "metodo_pago": "Tarjeta",
+    "estado": "entregado"
+  },
+  {
+    "_id": "ORD-2024018",
+    "cliente": {
+      "nombre": "Felipe Martínez",
+      "ciudad": "Bogotá",
+      "dir": "Calle 43 # 48 - 1"
+    },
+    "items": [
+      {
+        "p_id": "PROD003",
+        "name": "Teclado Mecánico RGB",
+        "qty": 2,
+        "price": 320000,
+        "sub": 640000
+      },
+      {
+        "p_id": "PROD002",
+        "name": "Monitor 27\" 4K",
+        "qty": 3,
+        "price": 1250000,
+        "sub": 3750000
+      },
+      {
+        "p_id": "PROD005",
+        "name": "Silla de Oficina Ergo",
+        "qty": 1,
+        "price": 850000,
+        "sub": 850000
+      }
+    ],
+    "total": 5240000,
+    "fecha": "2026-07-11T09:22:53.234Z",
+    "metodo_pago": "Tarjeta",
+    "estado": "pendiente"
+  },
+  {
+    "_id": "ORD-2024019",
+    "cliente": {
+      "nombre": "Carlos García",
+      "ciudad": "Bucaramanga",
+      "dir": "Calle 11 # 38 - 39"
+    },
+    "items": [
+      {
+        "p_id": "PROD003",
+        "name": "Teclado Mecánico RGB",
+        "qty": 1,
+        "price": 320000,
+        "sub": 320000
+      },
+      {
+        "p_id": "PROD002",
+        "name": "Monitor 27\" 4K",
+        "qty": 3,
+        "price": 1250000,
+        "sub": 3750000
+      },
+      {
+        "p_id": "PROD001",
+        "name": "Laptop Pro 15\"",
+        "qty": 2,
+        "price": 3500000,
+        "sub": 7000000
+      },
+      {
+        "p_id": "PROD004",
+        "name": "Mouse Ergonómico",
+        "qty": 1,
+        "price": 180000,
+        "sub": 180000
+      }
+    ],
+    "total": 11250000,
+    "fecha": "2026-07-03T21:48:21.240Z",
+    "metodo_pago": "Efectivo",
+    "estado": "pendiente"
+  },
+  {
+    "_id": "ORD-2024020",
+    "cliente": {
+      "nombre": "Felipe Sánchez",
+      "ciudad": "Barranquilla",
+      "dir": "Calle 52 # 26 - 47"
+    },
+    "items": [
+      {
+        "p_id": "PROD001",
+        "name": "Laptop Pro 15\"",
+        "qty": 1,
+        "price": 3500000,
+        "sub": 3500000
+      }
+    ],
+    "total": 3500000,
+    "fecha": "2026-07-07T05:53:02.270Z",
+    "metodo_pago": "Tarjeta",
+    "estado": "pendiente"
+  },
+  {
+    "_id": "ORD-2024021",
+    "cliente": {
+      "nombre": "Juan Castillo",
+      "ciudad": "Bogotá",
+      "dir": "Calle 48 # 18 - 10"
+    },
+    "items": [
+      {
+        "p_id": "PROD002",
+        "name": "Monitor 27\" 4K",
+        "qty": 2,
+        "price": 1250000,
+        "sub": 2500000
+      },
+      {
+        "p_id": "PROD003",
+        "name": "Teclado Mecánico RGB",
+        "qty": 2,
+        "price": 320000,
+        "sub": 640000
+      },
+      {
+        "p_id": "PROD004",
+        "name": "Mouse Ergonómico",
+        "qty": 2,
+        "price": 180000,
+        "sub": 360000
+      },
+      {
+        "p_id": "PROD005",
+        "name": "Silla de Oficina Ergo",
+        "qty": 3,
+        "price": 850000,
+        "sub": 2550000
+      }
+    ],
+    "total": 6050000,
+    "fecha": "2026-07-03T22:50:18.221Z",
+    "metodo_pago": "Tarjeta",
+    "estado": "en camino"
+  },
+  {
+    "_id": "ORD-2024022",
+    "cliente": {
+      "nombre": "Mateo Gómez",
+      "ciudad": "Cali",
+      "dir": "Calle 76 # 46 - 48"
+    },
+    "items": [
+      {
+        "p_id": "PROD002",
+        "name": "Monitor 27\" 4K",
+        "qty": 3,
+        "price": 1250000,
+        "sub": 3750000
+      },
+      {
+        "p_id": "PROD001",
+        "name": "Laptop Pro 15\"",
+        "qty": 2,
+        "price": 3500000,
+        "sub": 7000000
+      }
+    ],
+    "total": 10750000,
+    "fecha": "2026-07-13T06:12:26.388Z",
+    "metodo_pago": "Tarjeta",
+    "estado": "pendiente"
+  },
+  {
+    "_id": "ORD-2024023",
+    "cliente": {
+      "nombre": "Luis García",
+      "ciudad": "Medellín",
+      "dir": "Calle 100 # 14 - 43"
+    },
+    "items": [
+      {
+        "p_id": "PROD003",
+        "name": "Teclado Mecánico RGB",
+        "qty": 2,
+        "price": 320000,
+        "sub": 640000
+      },
+      {
+        "p_id": "PROD001",
+        "name": "Laptop Pro 15\"",
+        "qty": 3,
+        "price": 3500000,
+        "sub": 10500000
+      },
+      {
+        "p_id": "PROD002",
+        "name": "Monitor 27\" 4K",
+        "qty": 2,
+        "price": 1250000,
+        "sub": 2500000
+      }
+    ],
+    "total": 13640000,
+    "fecha": "2026-07-10T17:13:37.714Z",
+    "metodo_pago": "Efectivo",
+    "estado": "en camino"
+  },
+  {
+    "_id": "ORD-2024024",
+    "cliente": {
+      "nombre": "Isabella García",
+      "ciudad": "Medellín",
+      "dir": "Calle 19 # 16 - 8"
+    },
+    "items": [
+      {
+        "p_id": "PROD002",
+        "name": "Monitor 27\" 4K",
+        "qty": 3,
+        "price": 1250000,
+        "sub": 3750000
+      }
+    ],
+    "total": 3750000,
+    "fecha": "2026-07-05T16:03:42.707Z",
+    "metodo_pago": "Efectivo",
+    "estado": "entregado"
+  },
+  {
+    "_id": "ORD-2024025",
+    "cliente": {
+      "nombre": "Mateo Ramírez",
+      "ciudad": "Cartagena",
+      "dir": "Calle 9 # 23 - 43"
+    },
+    "items": [
+      {
+        "p_id": "PROD001",
+        "name": "Laptop Pro 15\"",
+        "qty": 3,
+        "price": 3500000,
+        "sub": 10500000
+      },
+      {
+        "p_id": "PROD002",
+        "name": "Monitor 27\" 4K",
+        "qty": 1,
+        "price": 1250000,
+        "sub": 1250000
+      },
+      {
+        "p_id": "PROD003",
+        "name": "Teclado Mecánico RGB",
+        "qty": 1,
+        "price": 320000,
+        "sub": 320000
+      },
+      {
+        "p_id": "PROD008",
+        "name": "Webcam Ultra HD",
+        "qty": 3,
+        "price": 550000,
+        "sub": 1650000
+      }
+    ],
+    "total": 13720000,
+    "fecha": "2026-07-10T06:38:03.963Z",
+    "metodo_pago": "Tarjeta",
+    "estado": "entregado"
+  },
+  {
+    "_id": "ORD-2024026",
+    "cliente": {
+      "nombre": "Daniela Gómez",
+      "ciudad": "Cali",
+      "dir": "Calle 76 # 44 - 44"
+    },
+    "items": [
+      {
+        "p_id": "PROD004",
+        "name": "Mouse Ergonómico",
+        "qty": 1,
+        "price": 180000,
+        "sub": 180000
+      },
+      {
+        "p_id": "PROD002",
+        "name": "Monitor 27\" 4K",
+        "qty": 3,
+        "price": 1250000,
+        "sub": 3750000
+      },
+      {
+        "p_id": "PROD001",
+        "name": "Laptop Pro 15\"",
+        "qty": 1,
+        "price": 3500000,
+        "sub": 3500000
+      },
+      {
+        "p_id": "PROD005",
+        "name": "Silla de Oficina Ergo",
+        "qty": 1,
+        "price": 850000,
+        "sub": 850000
+      }
+    ],
+    "total": 8280000,
+    "fecha": "2026-07-05T03:38:35.988Z",
+    "metodo_pago": "Tarjeta",
+    "estado": "entregado"
+  },
+  {
+    "_id": "ORD-2024027",
+    "cliente": {
+      "nombre": "Carlos Ramírez",
+      "ciudad": "Bogotá",
+      "dir": "Calle 89 # 41 - 11"
+    },
+    "items": [
+      {
+        "p_id": "PROD002",
+        "name": "Monitor 27\" 4K",
+        "qty": 2,
+        "price": 1250000,
+        "sub": 2500000
+      },
+      {
+        "p_id": "PROD004",
+        "name": "Mouse Ergonómico",
+        "qty": 1,
+        "price": 180000,
+        "sub": 180000
+      },
+      {
+        "p_id": "PROD001",
+        "name": "Laptop Pro 15\"",
+        "qty": 3,
+        "price": 3500000,
+        "sub": 10500000
+      },
+      {
+        "p_id": "PROD003",
+        "name": "Teclado Mecánico RGB",
+        "qty": 2,
+        "price": 320000,
+        "sub": 640000
+      }
+    ],
+    "total": 13820000,
+    "fecha": "2026-07-13T19:46:33.705Z",
+    "metodo_pago": "Efectivo",
+    "estado": "entregado"
+  },
+  {
+    "_id": "ORD-2024028",
+    "cliente": {
+      "nombre": "Ricardo Martínez",
+      "ciudad": "Barranquilla",
+      "dir": "Calle 1 # 21 - 3"
+    },
+    "items": [
+      {
+        "p_id": "PROD001",
+        "name": "Laptop Pro 15\"",
+        "qty": 3,
+        "price": 3500000,
+        "sub": 10500000
+      },
+      {
+        "p_id": "PROD002",
+        "name": "Monitor 27\" 4K",
+        "qty": 2,
+        "price": 1250000,
+        "sub": 2500000
+      },
+      {
+        "p_id": "PROD003",
+        "name": "Teclado Mecánico RGB",
+        "qty": 1,
+        "price": 320000,
+        "sub": 320000
+      },
+      {
+        "p_id": "PROD004",
+        "name": "Mouse Ergonómico",
+        "qty": 1,
+        "price": 180000,
+        "sub": 180000
+      }
+    ],
+    "total": 13500000,
+    "fecha": "2026-07-04T09:43:16.196Z",
+    "metodo_pago": "Efectivo",
+    "estado": "entregado"
+  },
+  {
+    "_id": "ORD-2024029",
+    "cliente": {
+      "nombre": "Sofia Hernández",
+      "ciudad": "Barranquilla",
+      "dir": "Calle 55 # 9 - 36"
+    },
+    "items": [
+      {
+        "p_id": "PROD003",
+        "name": "Teclado Mecánico RGB",
+        "qty": 2,
+        "price": 320000,
+        "sub": 640000
+      },
+      {
+        "p_id": "PROD002",
+        "name": "Monitor 27\" 4K",
+        "qty": 1,
+        "price": 1250000,
+        "sub": 1250000
+      }
+    ],
+    "total": 1890000,
+    "fecha": "2026-07-07T06:56:35.611Z",
+    "metodo_pago": "Efectivo",
+    "estado": "pendiente"
+  },
+  {
+    "_id": "ORD-2024030",
+    "cliente": {
+      "nombre": "Carlos Torres",
+      "ciudad": "Medellín",
+      "dir": "Calle 91 # 12 - 47"
+    },
+    "items": [
+      {
+        "p_id": "PROD002",
+        "name": "Monitor 27\" 4K",
+        "qty": 1,
+        "price": 1250000,
+        "sub": 1250000
+      }
+    ],
+    "total": 1250000,
+    "fecha": "2026-07-14T12:31:40.179Z",
+    "metodo_pago": "Efectivo",
+    "estado": "en camino"
+  },
+  {
+    "_id": "ORD-2024031",
+    "cliente": {
+      "nombre": "Felipe Hernández",
+      "ciudad": "Cartagena",
+      "dir": "Calle 70 # 49 - 26"
+    },
+    "items": [
+      {
+        "p_id": "PROD001",
+        "name": "Laptop Pro 15\"",
+        "qty": 2,
+        "price": 3500000,
+        "sub": 7000000
+      }
+    ],
+    "total": 7000000,
+    "fecha": "2026-07-06T09:21:35.681Z",
+    "metodo_pago": "Efectivo",
+    "estado": "pendiente"
+  },
+  {
+    "_id": "ORD-2024032",
+    "cliente": {
+      "nombre": "Beatriz Gómez",
+      "ciudad": "Medellín",
+      "dir": "Calle 80 # 15 - 31"
+    },
+    "items": [
+      {
+        "p_id": "PROD001",
+        "name": "Laptop Pro 15\"",
+        "qty": 2,
+        "price": 3500000,
+        "sub": 7000000
+      },
+      {
+        "p_id": "PROD002",
+        "name": "Monitor 27\" 4K",
+        "qty": 3,
+        "price": 1250000,
+        "sub": 3750000
+      },
+      {
+        "p_id": "PROD003",
+        "name": "Teclado Mecánico RGB",
+        "qty": 2,
+        "price": 320000,
+        "sub": 640000
+      },
+      {
+        "p_id": "PROD004",
+        "name": "Mouse Ergonómico",
+        "qty": 2,
+        "price": 180000,
+        "sub": 360000
+      }
+    ],
+    "total": 11750000,
+    "fecha": "2026-07-08T19:30:05.891Z",
+    "metodo_pago": "Tarjeta",
+    "estado": "en camino"
+  },
+  {
+    "_id": "ORD-2024033",
+    "cliente": {
+      "nombre": "Diego Gómez",
+      "ciudad": "Bucaramanga",
+      "dir": "Calle 41 # 2 - 13"
+    },
+    "items": [
+      {
+        "p_id": "PROD006",
+        "name": "Disco SSD 1TB NVMe",
+        "qty": 2,
+        "price": 450000,
+        "sub": 900000
+      },
+      {
+        "p_id": "PROD003",
+        "name": "Teclado Mecánico RGB",
+        "qty": 3,
+        "price": 320000,
+        "sub": 960000
+      },
+      {
+        "p_id": "PROD004",
+        "name": "Mouse Ergonómico",
+        "qty": 1,
+        "price": 180000,
+        "sub": 180000
+      }
+    ],
+    "total": 2040000,
+    "fecha": "2026-07-13T14:30:42.408Z",
+    "metodo_pago": "Efectivo",
+    "estado": "pendiente"
+  },
+  {
+    "_id": "ORD-2024034",
+    "cliente": {
+      "nombre": "Andrés Ramírez",
+      "ciudad": "Bucaramanga",
+      "dir": "Calle 4 # 36 - 16"
+    },
+    "items": [
+      {
+        "p_id": "PROD002",
+        "name": "Monitor 27\" 4K",
+        "qty": 3,
+        "price": 1250000,
+        "sub": 3750000
+      },
+      {
+        "p_id": "PROD001",
+        "name": "Laptop Pro 15\"",
+        "qty": 1,
+        "price": 3500000,
+        "sub": 3500000
+      },
+      {
+        "p_id": "PROD003",
+        "name": "Teclado Mecánico RGB",
+        "qty": 1,
+        "price": 320000,
+        "sub": 320000
+      },
+      {
+        "p_id": "PROD004",
+        "name": "Mouse Ergonómico",
+        "qty": 3,
+        "price": 180000,
+        "sub": 540000
+      }
+    ],
+    "total": 8110000,
+    "fecha": "2026-07-06T13:49:09.444Z",
+    "metodo_pago": "Efectivo",
+    "estado": "entregado"
+  },
+  {
+    "_id": "ORD-2024035",
+    "cliente": {
+      "nombre": "Isabella Vásquez",
+      "ciudad": "Cali",
+      "dir": "Calle 84 # 9 - 10"
+    },
+    "items": [
+      {
+        "p_id": "PROD004",
+        "name": "Mouse Ergonómico",
+        "qty": 1,
+        "price": 180000,
+        "sub": 180000
+      },
+      {
+        "p_id": "PROD005",
+        "name": "Silla de Oficina Ergo",
+        "qty": 2,
+        "price": 850000,
+        "sub": 1700000
+      },
+      {
+        "p_id": "PROD006",
+        "name": "Disco SSD 1TB NVMe",
+        "qty": 2,
+        "price": 450000,
+        "sub": 900000
+      }
+    ],
+    "total": 2780000,
+    "fecha": "2026-07-10T12:06:37.896Z",
+    "metodo_pago": "Efectivo",
+    "estado": "entregado"
+  },
+  {
+    "_id": "ORD-2024036",
+    "cliente": {
+      "nombre": "Sofia Sánchez",
+      "ciudad": "Medellín",
+      "dir": "Calle 2 # 49 - 6"
+    },
+    "items": [
+      {
+        "p_id": "PROD006",
+        "name": "Disco SSD 1TB NVMe",
+        "qty": 3,
+        "price": 450000,
+        "sub": 1350000
+      },
+      {
+        "p_id": "PROD002",
+        "name": "Monitor 27\" 4K",
+        "qty": 2,
+        "price": 1250000,
+        "sub": 2500000
+      }
+    ],
+    "total": 3850000,
+    "fecha": "2026-07-14T01:53:19.233Z",
+    "metodo_pago": "Efectivo",
+    "estado": "entregado"
+  },
+  {
+    "_id": "ORD-2024037",
+    "cliente": {
+      "nombre": "Luis Martínez",
+      "ciudad": "Cartagena",
+      "dir": "Calle 71 # 42 - 36"
+    },
+    "items": [
+      {
+        "p_id": "PROD002",
+        "name": "Monitor 27\" 4K",
+        "qty": 1,
+        "price": 1250000,
+        "sub": 1250000
+      },
+      {
+        "p_id": "PROD003",
+        "name": "Teclado Mecánico RGB",
+        "qty": 1,
+        "price": 320000,
+        "sub": 320000
+      },
+      {
+        "p_id": "PROD001",
+        "name": "Laptop Pro 15\"",
+        "qty": 1,
+        "price": 3500000,
+        "sub": 3500000
+      }
+    ],
+    "total": 5070000,
+    "fecha": "2026-07-13T04:25:05.555Z",
+    "metodo_pago": "Tarjeta",
+    "estado": "pendiente"
+  },
+  {
+    "_id": "ORD-2024038",
+    "cliente": {
+      "nombre": "Beatriz Torres",
+      "ciudad": "Cartagena",
+      "dir": "Calle 89 # 17 - 25"
+    },
+    "items": [
+      {
+        "p_id": "PROD001",
+        "name": "Laptop Pro 15\"",
+        "qty": 1,
+        "price": 3500000,
+        "sub": 3500000
+      }
+    ],
+    "total": 3500000,
+    "fecha": "2026-07-05T20:38:07.464Z",
+    "metodo_pago": "Efectivo",
+    "estado": "en camino"
+  },
+  {
+    "_id": "ORD-2024039",
+    "cliente": {
+      "nombre": "Mateo López",
+      "ciudad": "Bogotá",
+      "dir": "Calle 38 # 4 - 3"
+    },
+    "items": [
+      {
+        "p_id": "PROD002",
+        "name": "Monitor 27\" 4K",
+        "qty": 1,
+        "price": 1250000,
+        "sub": 1250000
+      },
+      {
+        "p_id": "PROD001",
+        "name": "Laptop Pro 15\"",
+        "qty": 2,
+        "price": 3500000,
+        "sub": 7000000
+      },
+      {
+        "p_id": "PROD003",
+        "name": "Teclado Mecánico RGB",
+        "qty": 3,
+        "price": 320000,
+        "sub": 960000
+      },
+      {
+        "p_id": "PROD004",
+        "name": "Mouse Ergonómico",
+        "qty": 2,
+        "price": 180000,
+        "sub": 360000
+      }
+    ],
+    "total": 9570000,
+    "fecha": "2026-07-10T04:12:35.408Z",
+    "metodo_pago": "Tarjeta",
+    "estado": "en camino"
+  },
+  {
+    "_id": "ORD-2024040",
+    "cliente": {
+      "nombre": "Felipe González",
+      "ciudad": "Bogotá",
+      "dir": "Calle 86 # 36 - 11"
+    },
+    "items": [
+      {
+        "p_id": "PROD002",
+        "name": "Monitor 27\" 4K",
+        "qty": 3,
+        "price": 1250000,
+        "sub": 3750000
+      },
+      {
+        "p_id": "PROD001",
+        "name": "Laptop Pro 15\"",
+        "qty": 1,
+        "price": 3500000,
+        "sub": 3500000
+      },
+      {
+        "p_id": "PROD007",
+        "name": "Memoria RAM 32GB",
+        "qty": 1,
+        "price": 620000,
+        "sub": 620000
+      },
+      {
+        "p_id": "PROD006",
+        "name": "Disco SSD 1TB NVMe",
+        "qty": 1,
+        "price": 450000,
+        "sub": 450000
+      }
+    ],
+    "total": 8320000,
+    "fecha": "2026-07-13T18:56:45.948Z",
+    "metodo_pago": "Efectivo",
+    "estado": "pendiente"
+  },
+  {
+    "_id": "ORD-2024041",
+    "cliente": {
+      "nombre": "Felipe López",
+      "ciudad": "Cartagena",
+      "dir": "Calle 91 # 46 - 33"
+    },
+    "items": [
+      {
+        "p_id": "PROD002",
+        "name": "Monitor 27\" 4K",
+        "qty": 3,
+        "price": 1250000,
+        "sub": 3750000
+      },
+      {
+        "p_id": "PROD001",
+        "name": "Laptop Pro 15\"",
+        "qty": 2,
+        "price": 3500000,
+        "sub": 7000000
+      },
+      {
+        "p_id": "PROD004",
+        "name": "Mouse Ergonómico",
+        "qty": 3,
+        "price": 180000,
+        "sub": 540000
+      },
+      {
+        "p_id": "PROD003",
+        "name": "Teclado Mecánico RGB",
+        "qty": 2,
+        "price": 320000,
+        "sub": 640000
+      }
+    ],
+    "total": 11930000,
+    "fecha": "2026-07-05T10:05:49.438Z",
+    "metodo_pago": "Efectivo",
+    "estado": "pendiente"
+  },
+  {
+    "_id": "ORD-2024042",
+    "cliente": {
+      "nombre": "Luis López",
+      "ciudad": "Barranquilla",
+      "dir": "Calle 86 # 46 - 22"
+    },
+    "items": [
+      {
+        "p_id": "PROD003",
+        "name": "Teclado Mecánico RGB",
+        "qty": 2,
+        "price": 320000,
+        "sub": 640000
+      },
+      {
+        "p_id": "PROD002",
+        "name": "Monitor 27\" 4K",
+        "qty": 3,
+        "price": 1250000,
+        "sub": 3750000
+      },
+      {
+        "p_id": "PROD001",
+        "name": "Laptop Pro 15\"",
+        "qty": 2,
+        "price": 3500000,
+        "sub": 7000000
+      }
+    ],
+    "total": 11390000,
+    "fecha": "2026-07-12T06:28:25.670Z",
+    "metodo_pago": "Tarjeta",
+    "estado": "entregado"
+  },
+  {
+    "_id": "ORD-2024043",
+    "cliente": {
+      "nombre": "Ricardo Torres",
+      "ciudad": "Cartagena",
+      "dir": "Calle 81 # 20 - 33"
+    },
+    "items": [
+      {
+        "p_id": "PROD001",
+        "name": "Laptop Pro 15\"",
+        "qty": 1,
+        "price": 3500000,
+        "sub": 3500000
+      }
+    ],
+    "total": 3500000,
+    "fecha": "2026-07-05T15:49:31.905Z",
+    "metodo_pago": "Efectivo",
+    "estado": "pendiente"
+  },
+  {
+    "_id": "ORD-2024044",
+    "cliente": {
+      "nombre": "Juan Gómez",
+      "ciudad": "Cartagena",
+      "dir": "Calle 97 # 34 - 35"
+    },
+    "items": [
+      {
+        "p_id": "PROD006",
+        "name": "Disco SSD 1TB NVMe",
+        "qty": 3,
+        "price": 450000,
+        "sub": 1350000
+      },
+      {
+        "p_id": "PROD002",
+        "name": "Monitor 27\" 4K",
+        "qty": 1,
+        "price": 1250000,
+        "sub": 1250000
+      }
+    ],
+    "total": 2600000,
+    "fecha": "2026-07-09T08:21:19.584Z",
+    "metodo_pago": "Tarjeta",
+    "estado": "entregado"
+  },
+  {
+    "_id": "ORD-2024045",
+    "cliente": {
+      "nombre": "Beatriz González",
+      "ciudad": "Barranquilla",
+      "dir": "Calle 80 # 23 - 4"
+    },
+    "items": [
+      {
+        "p_id": "PROD002",
+        "name": "Monitor 27\" 4K",
+        "qty": 3,
+        "price": 1250000,
+        "sub": 3750000
+      },
+      {
+        "p_id": "PROD005",
+        "name": "Silla de Oficina Ergo",
+        "qty": 2,
+        "price": 850000,
+        "sub": 1700000
+      },
+      {
+        "p_id": "PROD003",
+        "name": "Teclado Mecánico RGB",
+        "qty": 2,
+        "price": 320000,
+        "sub": 640000
+      },
+      {
+        "p_id": "PROD001",
+        "name": "Laptop Pro 15\"",
+        "qty": 1,
+        "price": 3500000,
+        "sub": 3500000
+      }
+    ],
+    "total": 9590000,
+    "fecha": "2026-07-05T00:56:27.661Z",
+    "metodo_pago": "Tarjeta",
+    "estado": "en camino"
+  },
+  {
+    "_id": "ORD-2024046",
+    "cliente": {
+      "nombre": "Carlos Rodríguez",
+      "ciudad": "Bogotá",
+      "dir": "Calle 88 # 9 - 36"
+    },
+    "items": [
+      {
+        "p_id": "PROD001",
+        "name": "Laptop Pro 15\"",
+        "qty": 1,
+        "price": 3500000,
+        "sub": 3500000
+      },
+      {
+        "p_id": "PROD002",
+        "name": "Monitor 27\" 4K",
+        "qty": 3,
+        "price": 1250000,
+        "sub": 3750000
+      },
+      {
+        "p_id": "PROD006",
+        "name": "Disco SSD 1TB NVMe",
+        "qty": 3,
+        "price": 450000,
+        "sub": 1350000
+      },
+      {
+        "p_id": "PROD003",
+        "name": "Teclado Mecánico RGB",
+        "qty": 1,
+        "price": 320000,
+        "sub": 320000
+      }
+    ],
+    "total": 8920000,
+    "fecha": "2026-07-10T13:27:42.757Z",
+    "metodo_pago": "Efectivo",
+    "estado": "en camino"
+  },
+  {
+    "_id": "ORD-2024047",
+    "cliente": {
+      "nombre": "Sofia González",
+      "ciudad": "Medellín",
+      "dir": "Calle 34 # 41 - 7"
+    },
+    "items": [
+      {
+        "p_id": "PROD007",
+        "name": "Memoria RAM 32GB",
+        "qty": 3,
+        "price": 620000,
+        "sub": 1860000
+      },
+      {
+        "p_id": "PROD003",
+        "name": "Teclado Mecánico RGB",
+        "qty": 3,
+        "price": 320000,
+        "sub": 960000
+      },
+      {
+        "p_id": "PROD002",
+        "name": "Monitor 27\" 4K",
+        "qty": 1,
+        "price": 1250000,
+        "sub": 1250000
+      },
+      {
+        "p_id": "PROD009",
+        "name": "Impresora Láser",
+        "qty": 2,
+        "price": 980000,
+        "sub": 1960000
+      }
+    ],
+    "total": 6030000,
+    "fecha": "2026-07-12T04:30:41.079Z",
+    "metodo_pago": "Efectivo",
+    "estado": "entregado"
+  },
+  {
+    "_id": "ORD-2024048",
+    "cliente": {
+      "nombre": "Beatriz Torres",
+      "ciudad": "Bucaramanga",
+      "dir": "Calle 83 # 22 - 25"
+    },
+    "items": [
+      {
+        "p_id": "PROD004",
+        "name": "Mouse Ergonómico",
+        "qty": 2,
+        "price": 180000,
+        "sub": 360000
+      },
+      {
+        "p_id": "PROD002",
+        "name": "Monitor 27\" 4K",
+        "qty": 2,
+        "price": 1250000,
+        "sub": 2500000
+      }
+    ],
+    "total": 2860000,
+    "fecha": "2026-07-07T04:17:53.068Z",
+    "metodo_pago": "Efectivo",
+    "estado": "en camino"
+  },
+  {
+    "_id": "ORD-2024049",
+    "cliente": {
+      "nombre": "Mariana García",
+      "ciudad": "Medellín",
+      "dir": "Calle 80 # 15 - 31"
+    },
+    "items": [
+      {
+        "p_id": "PROD001",
+        "name": "Laptop Pro 15\"",
+        "qty": 1,
+        "price": 3500000,
+        "sub": 3500000
+      },
+      {
+        "p_id": "PROD002",
+        "name": "Monitor 27\" 4K",
+        "qty": 2,
+        "price": 1250000,
+        "sub": 2500000
+      },
+      {
+        "p_id": "PROD003",
+        "name": "Teclado Mecánico RGB",
+        "qty": 2,
+        "price": 320000,
+        "sub": 640000
+      }
+    ],
+    "total": 6640000,
+    "fecha": "2026-07-08T19:15:41.360Z",
+    "metodo_pago": "Tarjeta",
+    "estado": "entregado"
+  },
+  {
+    "_id": "ORD-2024050",
+    "cliente": {
+      "nombre": "Juan Álvarez",
+      "ciudad": "Cartagena",
+      "dir": "Calle 86 # 37 - 13"
+    },
+    "items": [
+      {
+        "p_id": "PROD002",
+        "name": "Monitor 27\" 4K",
+        "qty": 2,
+        "price": 1250000,
+        "sub": 2500000
+      }
+    ],
+    "total": 2500000,
+    "fecha": "2026-07-11T00:34:55.806Z",
+    "metodo_pago": "Tarjeta",
+    "estado": "en camino"
+  },
+  {
+    "_id": "ORD-2024051",
+    "cliente": {
+      "nombre": "Isabella Pérez",
+      "ciudad": "Cali",
+      "dir": "Calle 42 # 7 - 29"
+    },
+    "items": [
+      {
+        "p_id": "PROD003",
+        "name": "Teclado Mecánico RGB",
+        "qty": 1,
+        "price": 320000,
+        "sub": 320000
+      }
+    ],
+    "total": 320000,
+    "fecha": "2026-07-10T21:11:34.749Z",
+    "metodo_pago": "Tarjeta",
+    "estado": "entregado"
+  },
+  {
+    "_id": "ORD-2024052",
+    "cliente": {
+      "nombre": "Ricardo Rodríguez",
+      "ciudad": "Bucaramanga",
+      "dir": "Calle 15 # 22 - 47"
+    },
+    "items": [
+      {
+        "p_id": "PROD001",
+        "name": "Laptop Pro 15\"",
+        "qty": 3,
+        "price": 3500000,
+        "sub": 10500000
+      },
+      {
+        "p_id": "PROD004",
+        "name": "Mouse Ergonómico",
+        "qty": 1,
+        "price": 180000,
+        "sub": 180000
+      }
+    ],
+    "total": 10680000,
+    "fecha": "2026-07-07T00:19:15.393Z",
+    "metodo_pago": "Tarjeta",
+    "estado": "entregado"
+  },
+  {
+    "_id": "ORD-2024053",
+    "cliente": {
+      "nombre": "Carlos Hernández",
+      "ciudad": "Cartagena",
+      "dir": "Calle 22 # 6 - 16"
+    },
+    "items": [
+      {
+        "p_id": "PROD001",
+        "name": "Laptop Pro 15\"",
+        "qty": 3,
+        "price": 3500000,
+        "sub": 10500000
+      }
+    ],
+    "total": 10500000,
+    "fecha": "2026-07-05T03:01:39.278Z",
+    "metodo_pago": "Efectivo",
+    "estado": "entregado"
+  },
+  {
+    "_id": "ORD-2024054",
+    "cliente": {
+      "nombre": "Mateo Vásquez",
+      "ciudad": "Medellín",
+      "dir": "Calle 28 # 34 - 39"
+    },
+    "items": [
+      {
+        "p_id": "PROD003",
+        "name": "Teclado Mecánico RGB",
+        "qty": 2,
+        "price": 320000,
+        "sub": 640000
+      },
+      {
+        "p_id": "PROD004",
+        "name": "Mouse Ergonómico",
+        "qty": 1,
+        "price": 180000,
+        "sub": 180000
+      },
+      {
+        "p_id": "PROD001",
+        "name": "Laptop Pro 15\"",
+        "qty": 2,
+        "price": 3500000,
+        "sub": 7000000
+      }
+    ],
+    "total": 7820000,
+    "fecha": "2026-07-04T11:07:18.151Z",
+    "metodo_pago": "Tarjeta",
+    "estado": "pendiente"
+  },
+  {
+    "_id": "ORD-2024055",
+    "cliente": {
+      "nombre": "Mariana López",
+      "ciudad": "Medellín",
+      "dir": "Calle 94 # 6 - 25"
+    },
+    "items": [
+      {
+        "p_id": "PROD002",
+        "name": "Monitor 27\" 4K",
+        "qty": 2,
+        "price": 1250000,
+        "sub": 2500000
+      },
+      {
+        "p_id": "PROD003",
+        "name": "Teclado Mecánico RGB",
+        "qty": 3,
+        "price": 320000,
+        "sub": 960000
+      },
+      {
+        "p_id": "PROD001",
+        "name": "Laptop Pro 15\"",
+        "qty": 3,
+        "price": 3500000,
+        "sub": 10500000
+      }
+    ],
+    "total": 13960000,
+    "fecha": "2026-07-11T22:49:40.629Z",
+    "metodo_pago": "Tarjeta",
+    "estado": "pendiente"
+  },
+  {
+    "_id": "ORD-2024056",
+    "cliente": {
+      "nombre": "Mateo García",
+      "ciudad": "Bucaramanga",
+      "dir": "Calle 34 # 35 - 7"
+    },
+    "items": [
+      {
+        "p_id": "PROD004",
+        "name": "Mouse Ergonómico",
+        "qty": 3,
+        "price": 180000,
+        "sub": 540000
+      }
+    ],
+    "total": 540000,
+    "fecha": "2026-07-11T22:51:15.043Z",
+    "metodo_pago": "Efectivo",
+    "estado": "en camino"
+  },
+  {
+    "_id": "ORD-2024057",
+    "cliente": {
+      "nombre": "Isabella García",
+      "ciudad": "Barranquilla",
+      "dir": "Calle 32 # 20 - 13"
+    },
+    "items": [
+      {
+        "p_id": "PROD004",
+        "name": "Mouse Ergonómico",
+        "qty": 1,
+        "price": 180000,
+        "sub": 180000
+      },
+      {
+        "p_id": "PROD001",
+        "name": "Laptop Pro 15\"",
+        "qty": 2,
+        "price": 3500000,
+        "sub": 7000000
+      },
+      {
+        "p_id": "PROD002",
+        "name": "Monitor 27\" 4K",
+        "qty": 2,
+        "price": 1250000,
+        "sub": 2500000
+      }
+    ],
+    "total": 9680000,
+    "fecha": "2026-07-08T01:38:20.806Z",
+    "metodo_pago": "Tarjeta",
+    "estado": "entregado"
+  },
+  {
+    "_id": "ORD-2024058",
+    "cliente": {
+      "nombre": "Camila Castillo",
+      "ciudad": "Bucaramanga",
+      "dir": "Calle 89 # 15 - 3"
+    },
+    "items": [
+      {
+        "p_id": "PROD001",
+        "name": "Laptop Pro 15\"",
+        "qty": 1,
+        "price": 3500000,
+        "sub": 3500000
+      }
+    ],
+    "total": 3500000,
+    "fecha": "2026-07-10T04:36:00.604Z",
+    "metodo_pago": "Tarjeta",
+    "estado": "en camino"
+  },
+  {
+    "_id": "ORD-2024059",
+    "cliente": {
+      "nombre": "Juan Torres",
+      "ciudad": "Cartagena",
+      "dir": "Calle 10 # 14 - 32"
+    },
+    "items": [
+      {
+        "p_id": "PROD001",
+        "name": "Laptop Pro 15\"",
+        "qty": 2,
+        "price": 3500000,
+        "sub": 7000000
+      },
+      {
+        "p_id": "PROD002",
+        "name": "Monitor 27\" 4K",
+        "qty": 3,
+        "price": 1250000,
+        "sub": 3750000
+      },
+      {
+        "p_id": "PROD004",
+        "name": "Mouse Ergonómico",
+        "qty": 2,
+        "price": 180000,
+        "sub": 360000
+      }
+    ],
+    "total": 11110000,
+    "fecha": "2026-07-08T19:32:29.165Z",
+    "metodo_pago": "Efectivo",
+    "estado": "en camino"
+  },
+  {
+    "_id": "ORD-2024060",
+    "cliente": {
+      "nombre": "Felipe Martínez",
+      "ciudad": "Barranquilla",
+      "dir": "Calle 93 # 2 - 50"
+    },
+    "items": [
+      {
+        "p_id": "PROD002",
+        "name": "Monitor 27\" 4K",
+        "qty": 3,
+        "price": 1250000,
+        "sub": 3750000
+      },
+      {
+        "p_id": "PROD006",
+        "name": "Disco SSD 1TB NVMe",
+        "qty": 1,
+        "price": 450000,
+        "sub": 450000
+      }
+    ],
+    "total": 4200000,
+    "fecha": "2026-07-09T08:53:10.620Z",
+    "metodo_pago": "Tarjeta",
+    "estado": "en camino"
+  },
+  {
+    "_id": "ORD-2024061",
+    "cliente": {
+      "nombre": "Daniela Álvarez",
+      "ciudad": "Bucaramanga",
+      "dir": "Calle 100 # 26 - 11"
+    },
+    "items": [
+      {
+        "p_id": "PROD002",
+        "name": "Monitor 27\" 4K",
+        "qty": 2,
+        "price": 1250000,
+        "sub": 2500000
+      },
+      {
+        "p_id": "PROD001",
+        "name": "Laptop Pro 15\"",
+        "qty": 1,
+        "price": 3500000,
+        "sub": 3500000
+      }
+    ],
+    "total": 6000000,
+    "fecha": "2026-07-07T06:39:29.135Z",
+    "metodo_pago": "Tarjeta",
+    "estado": "en camino"
+  },
+  {
+    "_id": "ORD-2024062",
+    "cliente": {
+      "nombre": "Carlos Torres",
+      "ciudad": "Bucaramanga",
+      "dir": "Calle 21 # 1 - 1"
+    },
+    "items": [
+      {
+        "p_id": "PROD004",
+        "name": "Mouse Ergonómico",
+        "qty": 1,
+        "price": 180000,
+        "sub": 180000
+      },
+      {
+        "p_id": "PROD006",
+        "name": "Disco SSD 1TB NVMe",
+        "qty": 2,
+        "price": 450000,
+        "sub": 900000
+      },
+      {
+        "p_id": "PROD003",
+        "name": "Teclado Mecánico RGB",
+        "qty": 3,
+        "price": 320000,
+        "sub": 960000
+      }
+    ],
+    "total": 2040000,
+    "fecha": "2026-07-05T07:50:52.954Z",
+    "metodo_pago": "Tarjeta",
+    "estado": "pendiente"
+  },
+  {
+    "_id": "ORD-2024063",
+    "cliente": {
+      "nombre": "Ricardo Ramírez",
+      "ciudad": "Barranquilla",
+      "dir": "Calle 26 # 41 - 27"
+    },
+    "items": [
+      {
+        "p_id": "PROD002",
+        "name": "Monitor 27\" 4K",
+        "qty": 3,
+        "price": 1250000,
+        "sub": 3750000
+      }
+    ],
+    "total": 3750000,
+    "fecha": "2026-07-05T12:28:07.125Z",
+    "metodo_pago": "Tarjeta",
+    "estado": "pendiente"
+  },
+  {
+    "_id": "ORD-2024064",
+    "cliente": {
+      "nombre": "Mariana Álvarez",
+      "ciudad": "Cali",
+      "dir": "Calle 2 # 44 - 50"
+    },
+    "items": [
+      {
+        "p_id": "PROD004",
+        "name": "Mouse Ergonómico",
+        "qty": 3,
+        "price": 180000,
+        "sub": 540000
+      },
+      {
+        "p_id": "PROD003",
+        "name": "Teclado Mecánico RGB",
+        "qty": 2,
+        "price": 320000,
+        "sub": 640000
+      }
+    ],
+    "total": 1180000,
+    "fecha": "2026-07-13T10:09:35.885Z",
+    "metodo_pago": "Tarjeta",
+    "estado": "pendiente"
+  },
+  {
+    "_id": "ORD-2024065",
+    "cliente": {
+      "nombre": "Diego Díaz",
+      "ciudad": "Bogotá",
+      "dir": "Calle 25 # 1 - 25"
+    },
+    "items": [
+      {
+        "p_id": "PROD004",
+        "name": "Mouse Ergonómico",
+        "qty": 2,
+        "price": 180000,
+        "sub": 360000
+      },
+      {
+        "p_id": "PROD001",
+        "name": "Laptop Pro 15\"",
+        "qty": 3,
+        "price": 3500000,
+        "sub": 10500000
+      }
+    ],
+    "total": 10860000,
+    "fecha": "2026-07-12T22:24:58.729Z",
+    "metodo_pago": "Efectivo",
+    "estado": "entregado"
+  },
+  {
+    "_id": "ORD-2024066",
+    "cliente": {
+      "nombre": "Luis Hernández",
+      "ciudad": "Medellín",
+      "dir": "Calle 72 # 27 - 24"
+    },
+    "items": [
+      {
+        "p_id": "PROD002",
+        "name": "Monitor 27\" 4K",
+        "qty": 3,
+        "price": 1250000,
+        "sub": 3750000
+      },
+      {
+        "p_id": "PROD001",
+        "name": "Laptop Pro 15\"",
+        "qty": 1,
+        "price": 3500000,
+        "sub": 3500000
+      },
+      {
+        "p_id": "PROD003",
+        "name": "Teclado Mecánico RGB",
+        "qty": 2,
+        "price": 320000,
+        "sub": 640000
+      }
+    ],
+    "total": 7890000,
+    "fecha": "2026-07-09T21:22:21.039Z",
+    "metodo_pago": "Efectivo",
+    "estado": "pendiente"
+  },
+  {
+    "_id": "ORD-2024067",
+    "cliente": {
+      "nombre": "Luis García",
+      "ciudad": "Bogotá",
+      "dir": "Calle 10 # 22 - 29"
+    },
+    "items": [
+      {
+        "p_id": "PROD002",
+        "name": "Monitor 27\" 4K",
+        "qty": 2,
+        "price": 1250000,
+        "sub": 2500000
+      },
+      {
+        "p_id": "PROD001",
+        "name": "Laptop Pro 15\"",
+        "qty": 2,
+        "price": 3500000,
+        "sub": 7000000
+      },
+      {
+        "p_id": "PROD004",
+        "name": "Mouse Ergonómico",
+        "qty": 1,
+        "price": 180000,
+        "sub": 180000
+      },
+      {
+        "p_id": "PROD005",
+        "name": "Silla de Oficina Ergo",
+        "qty": 1,
+        "price": 850000,
+        "sub": 850000
+      }
+    ],
+    "total": 10530000,
+    "fecha": "2026-07-03T07:34:32.903Z",
+    "metodo_pago": "Efectivo",
+    "estado": "en camino"
+  },
+  {
+    "_id": "ORD-2024068",
+    "cliente": {
+      "nombre": "Camila Rodríguez",
+      "ciudad": "Bogotá",
+      "dir": "Calle 33 # 48 - 48"
+    },
+    "items": [
+      {
+        "p_id": "PROD002",
+        "name": "Monitor 27\" 4K",
+        "qty": 2,
+        "price": 1250000,
+        "sub": 2500000
+      },
+      {
+        "p_id": "PROD001",
+        "name": "Laptop Pro 15\"",
+        "qty": 1,
+        "price": 3500000,
+        "sub": 3500000
+      },
+      {
+        "p_id": "PROD003",
+        "name": "Teclado Mecánico RGB",
+        "qty": 3,
+        "price": 320000,
+        "sub": 960000
+      }
+    ],
+    "total": 6960000,
+    "fecha": "2026-07-11T23:26:12.690Z",
+    "metodo_pago": "Tarjeta",
+    "estado": "pendiente"
+  },
+  {
+    "_id": "ORD-2024069",
+    "cliente": {
+      "nombre": "Felipe Rodríguez",
+      "ciudad": "Cali",
+      "dir": "Calle 83 # 44 - 44"
+    },
+    "items": [
+      {
+        "p_id": "PROD004",
+        "name": "Mouse Ergonómico",
+        "qty": 1,
+        "price": 180000,
+        "sub": 180000
+      }
+    ],
+    "total": 180000,
+    "fecha": "2026-07-13T23:51:35.093Z",
+    "metodo_pago": "Efectivo",
+    "estado": "entregado"
+  },
+  {
+    "_id": "ORD-2024070",
+    "cliente": {
+      "nombre": "Andrés López",
+      "ciudad": "Medellín",
+      "dir": "Calle 17 # 2 - 10"
+    },
+    "items": [
+      {
+        "p_id": "PROD005",
+        "name": "Silla de Oficina Ergo",
+        "qty": 3,
+        "price": 850000,
+        "sub": 2550000
+      }
+    ],
+    "total": 2550000,
+    "fecha": "2026-07-12T21:38:16.076Z",
+    "metodo_pago": "Tarjeta",
+    "estado": "pendiente"
+  },
+  {
+    "_id": "ORD-2024071",
+    "cliente": {
+      "nombre": "Camila López",
+      "ciudad": "Cali",
+      "dir": "Calle 49 # 34 - 14"
+    },
+    "items": [
+      {
+        "p_id": "PROD005",
+        "name": "Silla de Oficina Ergo",
+        "qty": 3,
+        "price": 850000,
+        "sub": 2550000
+      }
+    ],
+    "total": 2550000,
+    "fecha": "2026-07-04T02:54:00.602Z",
+    "metodo_pago": "Tarjeta",
+    "estado": "pendiente"
+  },
+  {
+    "_id": "ORD-2024072",
+    "cliente": {
+      "nombre": "Camila Hernández",
+      "ciudad": "Barranquilla",
+      "dir": "Calle 69 # 33 - 35"
+    },
+    "items": [
+      {
+        "p_id": "PROD003",
+        "name": "Teclado Mecánico RGB",
+        "qty": 1,
+        "price": 320000,
+        "sub": 320000
+      }
+    ],
+    "total": 320000,
+    "fecha": "2026-07-05T02:36:56.718Z",
+    "metodo_pago": "Tarjeta",
+    "estado": "pendiente"
+  },
+  {
+    "_id": "ORD-2024073",
+    "cliente": {
+      "nombre": "Felipe Hernández",
+      "ciudad": "Bogotá",
+      "dir": "Calle 96 # 20 - 50"
+    },
+    "items": [
+      {
+        "p_id": "PROD003",
+        "name": "Teclado Mecánico RGB",
+        "qty": 3,
+        "price": 320000,
+        "sub": 960000
+      },
+      {
+        "p_id": "PROD001",
+        "name": "Laptop Pro 15\"",
+        "qty": 1,
+        "price": 3500000,
+        "sub": 3500000
+      },
+      {
+        "p_id": "PROD002",
+        "name": "Monitor 27\" 4K",
+        "qty": 3,
+        "price": 1250000,
+        "sub": 3750000
+      }
+    ],
+    "total": 8210000,
+    "fecha": "2026-07-11T12:51:50.805Z",
+    "metodo_pago": "Tarjeta",
+    "estado": "en camino"
+  },
+  {
+    "_id": "ORD-2024074",
+    "cliente": {
+      "nombre": "Camila Álvarez",
+      "ciudad": "Bucaramanga",
+      "dir": "Calle 61 # 31 - 10"
+    },
+    "items": [
+      {
+        "p_id": "PROD002",
+        "name": "Monitor 27\" 4K",
+        "qty": 2,
+        "price": 1250000,
+        "sub": 2500000
+      }
+    ],
+    "total": 2500000,
+    "fecha": "2026-07-08T09:24:31.926Z",
+    "metodo_pago": "Tarjeta",
+    "estado": "pendiente"
+  },
+  {
+    "_id": "ORD-2024075",
+    "cliente": {
+      "nombre": "Juan García",
+      "ciudad": "Cali",
+      "dir": "Calle 14 # 17 - 40"
+    },
+    "items": [
+      {
+        "p_id": "PROD001",
+        "name": "Laptop Pro 15\"",
+        "qty": 3,
+        "price": 3500000,
+        "sub": 10500000
+      },
+      {
+        "p_id": "PROD002",
+        "name": "Monitor 27\" 4K",
+        "qty": 1,
+        "price": 1250000,
+        "sub": 1250000
+      },
+      {
+        "p_id": "PROD004",
+        "name": "Mouse Ergonómico",
+        "qty": 1,
+        "price": 180000,
+        "sub": 180000
+      }
+    ],
+    "total": 11930000,
+    "fecha": "2026-07-10T03:29:20.044Z",
+    "metodo_pago": "Tarjeta",
+    "estado": "entregado"
+  },
+  {
+    "_id": "ORD-2024076",
+    "cliente": {
+      "nombre": "Luis Martínez",
+      "ciudad": "Bucaramanga",
+      "dir": "Calle 23 # 11 - 9"
+    },
+    "items": [
+      {
+        "p_id": "PROD001",
+        "name": "Laptop Pro 15\"",
+        "qty": 3,
+        "price": 3500000,
+        "sub": 10500000
+      },
+      {
+        "p_id": "PROD003",
+        "name": "Teclado Mecánico RGB",
+        "qty": 3,
+        "price": 320000,
+        "sub": 960000
+      },
+      {
+        "p_id": "PROD005",
+        "name": "Silla de Oficina Ergo",
+        "qty": 3,
+        "price": 850000,
+        "sub": 2550000
+      }
+    ],
+    "total": 14010000,
+    "fecha": "2026-07-13T05:27:15.813Z",
+    "metodo_pago": "Efectivo",
+    "estado": "pendiente"
+  },
+  {
+    "_id": "ORD-2024077",
+    "cliente": {
+      "nombre": "Luis González",
+      "ciudad": "Cartagena",
+      "dir": "Calle 98 # 12 - 22"
+    },
+    "items": [
+      {
+        "p_id": "PROD001",
+        "name": "Laptop Pro 15\"",
+        "qty": 1,
+        "price": 3500000,
+        "sub": 3500000
+      },
+      {
+        "p_id": "PROD002",
+        "name": "Monitor 27\" 4K",
+        "qty": 2,
+        "price": 1250000,
+        "sub": 2500000
+      },
+      {
+        "p_id": "PROD003",
+        "name": "Teclado Mecánico RGB",
+        "qty": 1,
+        "price": 320000,
+        "sub": 320000
+      }
+    ],
+    "total": 6320000,
+    "fecha": "2026-07-12T23:04:06.316Z",
+    "metodo_pago": "Tarjeta",
+    "estado": "en camino"
+  },
+  {
+    "_id": "ORD-2024078",
+    "cliente": {
+      "nombre": "Valentina López",
+      "ciudad": "Cali",
+      "dir": "Calle 2 # 22 - 26"
+    },
+    "items": [
+      {
+        "p_id": "PROD004",
+        "name": "Mouse Ergonómico",
+        "qty": 2,
+        "price": 180000,
+        "sub": 360000
+      }
+    ],
+    "total": 360000,
+    "fecha": "2026-07-03T08:16:24.930Z",
+    "metodo_pago": "Efectivo",
+    "estado": "pendiente"
+  },
+  {
+    "_id": "ORD-2024079",
+    "cliente": {
+      "nombre": "Valentina Díaz",
+      "ciudad": "Medellín",
+      "dir": "Calle 31 # 40 - 1"
+    },
+    "items": [
+      {
+        "p_id": "PROD003",
+        "name": "Teclado Mecánico RGB",
+        "qty": 2,
+        "price": 320000,
+        "sub": 640000
+      },
+      {
+        "p_id": "PROD002",
+        "name": "Monitor 27\" 4K",
+        "qty": 2,
+        "price": 1250000,
+        "sub": 2500000
+      },
+      {
+        "p_id": "PROD001",
+        "name": "Laptop Pro 15\"",
+        "qty": 3,
+        "price": 3500000,
+        "sub": 10500000
+      }
+    ],
+    "total": 13640000,
+    "fecha": "2026-07-09T03:12:22.960Z",
+    "metodo_pago": "Efectivo",
+    "estado": "pendiente"
+  },
+  {
+    "_id": "ORD-2024080",
+    "cliente": {
+      "nombre": "Juan Díaz",
+      "ciudad": "Medellín",
+      "dir": "Calle 83 # 40 - 41"
+    },
+    "items": [
+      {
+        "p_id": "PROD001",
+        "name": "Laptop Pro 15\"",
+        "qty": 3,
+        "price": 3500000,
+        "sub": 10500000
+      }
+    ],
+    "total": 10500000,
+    "fecha": "2026-07-13T09:36:52.591Z",
+    "metodo_pago": "Tarjeta",
+    "estado": "en camino"
+  },
+  {
+    "_id": "ORD-2024081",
+    "cliente": {
+      "nombre": "Andrés García",
+      "ciudad": "Bucaramanga",
+      "dir": "Calle 43 # 6 - 39"
+    },
+    "items": [
+      {
+        "p_id": "PROD002",
+        "name": "Monitor 27\" 4K",
+        "qty": 2,
+        "price": 1250000,
+        "sub": 2500000
+      },
+      {
+        "p_id": "PROD001",
+        "name": "Laptop Pro 15\"",
+        "qty": 3,
+        "price": 3500000,
+        "sub": 10500000
+      }
+    ],
+    "total": 13000000,
+    "fecha": "2026-07-09T11:57:19.574Z",
+    "metodo_pago": "Tarjeta",
+    "estado": "pendiente"
+  },
+  {
+    "_id": "ORD-2024082",
+    "cliente": {
+      "nombre": "Daniela Martínez",
+      "ciudad": "Cali",
+      "dir": "Calle 42 # 45 - 4"
+    },
+    "items": [
+      {
+        "p_id": "PROD002",
+        "name": "Monitor 27\" 4K",
+        "qty": 1,
+        "price": 1250000,
+        "sub": 1250000
+      },
+      {
+        "p_id": "PROD001",
+        "name": "Laptop Pro 15\"",
+        "qty": 3,
+        "price": 3500000,
+        "sub": 10500000
+      }
+    ],
+    "total": 11750000,
+    "fecha": "2026-07-06T23:57:52.498Z",
+    "metodo_pago": "Efectivo",
+    "estado": "pendiente"
+  },
+  {
+    "_id": "ORD-2024083",
+    "cliente": {
+      "nombre": "Felipe Martínez",
+      "ciudad": "Bucaramanga",
+      "dir": "Calle 90 # 20 - 36"
+    },
+    "items": [
+      {
+        "p_id": "PROD008",
+        "name": "Webcam Ultra HD",
+        "qty": 2,
+        "price": 550000,
+        "sub": 1100000
+      },
+      {
+        "p_id": "PROD002",
+        "name": "Monitor 27\" 4K",
+        "qty": 1,
+        "price": 1250000,
+        "sub": 1250000
+      }
+    ],
+    "total": 2350000,
+    "fecha": "2026-07-10T12:37:57.885Z",
+    "metodo_pago": "Efectivo",
+    "estado": "en camino"
+  },
+  {
+    "_id": "ORD-2024084",
+    "cliente": {
+      "nombre": "Beatriz Gómez",
+      "ciudad": "Medellín",
+      "dir": "Calle 97 # 47 - 44"
+    },
+    "items": [
+      {
+        "p_id": "PROD004",
+        "name": "Mouse Ergonómico",
+        "qty": 3,
+        "price": 180000,
+        "sub": 540000
+      }
+    ],
+    "total": 540000,
+    "fecha": "2026-07-09T16:55:59.147Z",
+    "metodo_pago": "Efectivo",
+    "estado": "entregado"
+  },
+  {
+    "_id": "ORD-2024085",
+    "cliente": {
+      "nombre": "Isabella Díaz",
+      "ciudad": "Cali",
+      "dir": "Calle 58 # 37 - 25"
+    },
+    "items": [
+      {
+        "p_id": "PROD002",
+        "name": "Monitor 27\" 4K",
+        "qty": 1,
+        "price": 1250000,
+        "sub": 1250000
+      },
+      {
+        "p_id": "PROD001",
+        "name": "Laptop Pro 15\"",
+        "qty": 2,
+        "price": 3500000,
+        "sub": 7000000
+      }
+    ],
+    "total": 8250000,
+    "fecha": "2026-07-03T04:32:41.114Z",
+    "metodo_pago": "Tarjeta",
+    "estado": "en camino"
+  },
+  {
+    "_id": "ORD-2024086",
+    "cliente": {
+      "nombre": "Andrés Martínez",
+      "ciudad": "Bucaramanga",
+      "dir": "Calle 50 # 5 - 9"
+    },
+    "items": [
+      {
+        "p_id": "PROD002",
+        "name": "Monitor 27\" 4K",
+        "qty": 2,
+        "price": 1250000,
+        "sub": 2500000
+      },
+      {
+        "p_id": "PROD001",
+        "name": "Laptop Pro 15\"",
+        "qty": 1,
+        "price": 3500000,
+        "sub": 3500000
+      }
+    ],
+    "total": 6000000,
+    "fecha": "2026-07-03T06:27:28.262Z",
+    "metodo_pago": "Efectivo",
+    "estado": "en camino"
+  },
+  {
+    "_id": "ORD-2024087",
+    "cliente": {
+      "nombre": "Daniela Gómez",
+      "ciudad": "Bogotá",
+      "dir": "Calle 23 # 10 - 19"
+    },
+    "items": [
+      {
+        "p_id": "PROD001",
+        "name": "Laptop Pro 15\"",
+        "qty": 2,
+        "price": 3500000,
+        "sub": 7000000
+      },
+      {
+        "p_id": "PROD002",
+        "name": "Monitor 27\" 4K",
+        "qty": 2,
+        "price": 1250000,
+        "sub": 2500000
+      },
+      {
+        "p_id": "PROD008",
+        "name": "Webcam Ultra HD",
+        "qty": 3,
+        "price": 550000,
+        "sub": 1650000
+      }
+    ],
+    "total": 11150000,
+    "fecha": "2026-07-11T07:03:09.889Z",
+    "metodo_pago": "Tarjeta",
+    "estado": "pendiente"
+  },
+  {
+    "_id": "ORD-2024088",
+    "cliente": {
+      "nombre": "Camila Ramírez",
+      "ciudad": "Cartagena",
+      "dir": "Calle 29 # 29 - 13"
+    },
+    "items": [
+      {
+        "p_id": "PROD002",
+        "name": "Monitor 27\" 4K",
+        "qty": 2,
+        "price": 1250000,
+        "sub": 2500000
+      },
+      {
+        "p_id": "PROD004",
+        "name": "Mouse Ergonómico",
+        "qty": 2,
+        "price": 180000,
+        "sub": 360000
+      },
+      {
+        "p_id": "PROD003",
+        "name": "Teclado Mecánico RGB",
+        "qty": 2,
+        "price": 320000,
+        "sub": 640000
+      }
+    ],
+    "total": 3500000,
+    "fecha": "2026-07-05T21:15:39.431Z",
+    "metodo_pago": "Efectivo",
+    "estado": "entregado"
+  },
+  {
+    "_id": "ORD-2024089",
+    "cliente": {
+      "nombre": "Ricardo Gómez",
+      "ciudad": "Barranquilla",
+      "dir": "Calle 91 # 40 - 38"
+    },
+    "items": [
+      {
+        "p_id": "PROD002",
+        "name": "Monitor 27\" 4K",
+        "qty": 2,
+        "price": 1250000,
+        "sub": 2500000
+      },
+      {
+        "p_id": "PROD001",
+        "name": "Laptop Pro 15\"",
+        "qty": 3,
+        "price": 3500000,
+        "sub": 10500000
+      },
+      {
+        "p_id": "PROD003",
+        "name": "Teclado Mecánico RGB",
+        "qty": 1,
+        "price": 320000,
+        "sub": 320000
+      }
+    ],
+    "total": 13320000,
+    "fecha": "2026-07-11T00:57:24.199Z",
+    "metodo_pago": "Efectivo",
+    "estado": "pendiente"
+  },
+  {
+    "_id": "ORD-2024090",
+    "cliente": {
+      "nombre": "Felipe González",
+      "ciudad": "Bucaramanga",
+      "dir": "Calle 41 # 5 - 13"
+    },
+    "items": [
+      {
+        "p_id": "PROD002",
+        "name": "Monitor 27\" 4K",
+        "qty": 2,
+        "price": 1250000,
+        "sub": 2500000
+      },
+      {
+        "p_id": "PROD001",
+        "name": "Laptop Pro 15\"",
+        "qty": 2,
+        "price": 3500000,
+        "sub": 7000000
+      },
+      {
+        "p_id": "PROD004",
+        "name": "Mouse Ergonómico",
+        "qty": 3,
+        "price": 180000,
+        "sub": 540000
+      }
+    ],
+    "total": 10040000,
+    "fecha": "2026-07-08T00:42:36.501Z",
+    "metodo_pago": "Tarjeta",
+    "estado": "en camino"
+  },
+  {
+    "_id": "ORD-2024091",
+    "cliente": {
+      "nombre": "Juan López",
+      "ciudad": "Cali",
+      "dir": "Calle 63 # 35 - 44"
+    },
+    "items": [
+      {
+        "p_id": "PROD001",
+        "name": "Laptop Pro 15\"",
+        "qty": 1,
+        "price": 3500000,
+        "sub": 3500000
+      }
+    ],
+    "total": 3500000,
+    "fecha": "2026-07-07T16:52:14.902Z",
+    "metodo_pago": "Efectivo",
+    "estado": "pendiente"
+  },
+  {
+    "_id": "ORD-2024092",
+    "cliente": {
+      "nombre": "Juan Álvarez",
+      "ciudad": "Bucaramanga",
+      "dir": "Calle 25 # 9 - 37"
+    },
+    "items": [
+      {
+        "p_id": "PROD005",
+        "name": "Silla de Oficina Ergo",
+        "qty": 1,
+        "price": 850000,
+        "sub": 850000
+      },
+      {
+        "p_id": "PROD003",
+        "name": "Teclado Mecánico RGB",
+        "qty": 3,
+        "price": 320000,
+        "sub": 960000
+      },
+      {
+        "p_id": "PROD002",
+        "name": "Monitor 27\" 4K",
+        "qty": 3,
+        "price": 1250000,
+        "sub": 3750000
+      }
+    ],
+    "total": 5560000,
+    "fecha": "2026-07-14T13:52:38.511Z",
+    "metodo_pago": "Tarjeta",
+    "estado": "pendiente"
+  },
+  {
+    "_id": "ORD-2024093",
+    "cliente": {
+      "nombre": "Beatriz González",
+      "ciudad": "Bogotá",
+      "dir": "Calle 76 # 48 - 47"
+    },
+    "items": [
+      {
+        "p_id": "PROD002",
+        "name": "Monitor 27\" 4K",
+        "qty": 3,
+        "price": 1250000,
+        "sub": 3750000
+      },
+      {
+        "p_id": "PROD003",
+        "name": "Teclado Mecánico RGB",
+        "qty": 1,
+        "price": 320000,
+        "sub": 320000
+      },
+      {
+        "p_id": "PROD004",
+        "name": "Mouse Ergonómico",
+        "qty": 2,
+        "price": 180000,
+        "sub": 360000
+      }
+    ],
+    "total": 4430000,
+    "fecha": "2026-07-10T20:50:47.178Z",
+    "metodo_pago": "Efectivo",
+    "estado": "entregado"
+  },
+  {
+    "_id": "ORD-2024094",
+    "cliente": {
+      "nombre": "Luis Gómez",
+      "ciudad": "Barranquilla",
+      "dir": "Calle 92 # 44 - 30"
+    },
+    "items": [
+      {
+        "p_id": "PROD003",
+        "name": "Teclado Mecánico RGB",
+        "qty": 1,
+        "price": 320000,
+        "sub": 320000
+      },
+      {
+        "p_id": "PROD001",
+        "name": "Laptop Pro 15\"",
+        "qty": 1,
+        "price": 3500000,
+        "sub": 3500000
+      },
+      {
+        "p_id": "PROD002",
+        "name": "Monitor 27\" 4K",
+        "qty": 1,
+        "price": 1250000,
+        "sub": 1250000
+      },
+      {
+        "p_id": "PROD005",
+        "name": "Silla de Oficina Ergo",
+        "qty": 1,
+        "price": 850000,
+        "sub": 850000
+      }
+    ],
+    "total": 5920000,
+    "fecha": "2026-07-04T04:07:28.917Z",
+    "metodo_pago": "Efectivo",
+    "estado": "entregado"
+  },
+  {
+    "_id": "ORD-2024095",
+    "cliente": {
+      "nombre": "Isabella Vásquez",
+      "ciudad": "Bucaramanga",
+      "dir": "Calle 49 # 37 - 27"
+    },
+    "items": [
+      {
+        "p_id": "PROD003",
+        "name": "Teclado Mecánico RGB",
+        "qty": 3,
+        "price": 320000,
+        "sub": 960000
+      },
+      {
+        "p_id": "PROD002",
+        "name": "Monitor 27\" 4K",
+        "qty": 3,
+        "price": 1250000,
+        "sub": 3750000
+      },
+      {
+        "p_id": "PROD004",
+        "name": "Mouse Ergonómico",
+        "qty": 1,
+        "price": 180000,
+        "sub": 180000
+      }
+    ],
+    "total": 4890000,
+    "fecha": "2026-07-07T08:34:40.639Z",
+    "metodo_pago": "Tarjeta",
+    "estado": "entregado"
+  },
+  {
+    "_id": "ORD-2024096",
+    "cliente": {
+      "nombre": "Mariana Álvarez",
+      "ciudad": "Bogotá",
+      "dir": "Calle 28 # 1 - 45"
+    },
+    "items": [
+      {
+        "p_id": "PROD001",
+        "name": "Laptop Pro 15\"",
+        "qty": 1,
+        "price": 3500000,
+        "sub": 3500000
+      },
+      {
+        "p_id": "PROD004",
+        "name": "Mouse Ergonómico",
+        "qty": 3,
+        "price": 180000,
+        "sub": 540000
+      },
+      {
+        "p_id": "PROD003",
+        "name": "Teclado Mecánico RGB",
+        "qty": 1,
+        "price": 320000,
+        "sub": 320000
+      }
+    ],
+    "total": 4360000,
+    "fecha": "2026-07-04T23:52:48.848Z",
+    "metodo_pago": "Efectivo",
+    "estado": "en camino"
+  },
+  {
+    "_id": "ORD-2024097",
+    "cliente": {
+      "nombre": "Isabella Martínez",
+      "ciudad": "Barranquilla",
+      "dir": "Calle 21 # 44 - 37"
+    },
+    "items": [
+      {
+        "p_id": "PROD004",
+        "name": "Mouse Ergonómico",
+        "qty": 2,
+        "price": 180000,
+        "sub": 360000
+      },
+      {
+        "p_id": "PROD001",
+        "name": "Laptop Pro 15\"",
+        "qty": 1,
+        "price": 3500000,
+        "sub": 3500000
+      },
+      {
+        "p_id": "PROD007",
+        "name": "Memoria RAM 32GB",
+        "qty": 2,
+        "price": 620000,
+        "sub": 1240000
+      },
+      {
+        "p_id": "PROD002",
+        "name": "Monitor 27\" 4K",
+        "qty": 1,
+        "price": 1250000,
+        "sub": 1250000
+      }
+    ],
+    "total": 6350000,
+    "fecha": "2026-07-08T06:27:10.527Z",
+    "metodo_pago": "Tarjeta",
+    "estado": "pendiente"
+  },
+  {
+    "_id": "ORD-2024098",
+    "cliente": {
+      "nombre": "Mateo Gómez",
+      "ciudad": "Cali",
+      "dir": "Calle 10 # 28 - 32"
+    },
+    "items": [
+      {
+        "p_id": "PROD002",
+        "name": "Monitor 27\" 4K",
+        "qty": 2,
+        "price": 1250000,
+        "sub": 2500000
+      },
+      {
+        "p_id": "PROD003",
+        "name": "Teclado Mecánico RGB",
+        "qty": 2,
+        "price": 320000,
+        "sub": 640000
+      }
+    ],
+    "total": 3140000,
+    "fecha": "2026-07-11T23:22:54.811Z",
+    "metodo_pago": "Efectivo",
+    "estado": "entregado"
+  },
+  {
+    "_id": "ORD-2024099",
+    "cliente": {
+      "nombre": "Felipe Castillo",
+      "ciudad": "Barranquilla",
+      "dir": "Calle 20 # 25 - 42"
+    },
+    "items": [
+      {
+        "p_id": "PROD003",
+        "name": "Teclado Mecánico RGB",
+        "qty": 1,
+        "price": 320000,
+        "sub": 320000
+      },
+      {
+        "p_id": "PROD002",
+        "name": "Monitor 27\" 4K",
+        "qty": 3,
+        "price": 1250000,
+        "sub": 3750000
+      }
+    ],
+    "total": 4070000,
+    "fecha": "2026-07-09T22:38:23.506Z",
+    "metodo_pago": "Efectivo",
+    "estado": "entregado"
+  },
+  {
+    "_id": "ORD-2024100",
+    "cliente": {
+      "nombre": "Camila Hernández",
+      "ciudad": "Medellín",
+      "dir": "Calle 3 # 48 - 34"
+    },
+    "items": [
+      {
+        "p_id": "PROD002",
+        "name": "Monitor 27\" 4K",
+        "qty": 1,
+        "price": 1250000,
+        "sub": 1250000
+      }
+    ],
+    "total": 1250000,
+    "fecha": "2026-07-05T02:20:44.981Z",
+    "metodo_pago": "Tarjeta",
+    "estado": "entregado"
+  }
+]
